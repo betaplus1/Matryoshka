@@ -1,0 +1,1700 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 6
+Title "Płyteczka Mateczka"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3200 6800 550  500 
+U 5FCEE140
+F0 "POWER" 59
+F1 "POWER.sch" 59
+F2 "VIN+" I L 3200 7000 50 
+F3 "VIN-" I L 3200 7100 50 
+$EndSheet
+$Comp
+L Matrioszka-connectors:USB-C J?
+U 1 1 5F9E8053
+P 3500 1800
+AR Path="/5F91A24D/5F9E8053" Ref="J?"  Part="1" 
+AR Path="/5F9E8053" Ref="J6"  Part="1" 
+F 0 "J6" H 3100 2550 50  0000 L CNN
+F 1 "USB-C" H 3900 2550 50  0000 R CNN
+F 2 "Matrioszka:JAE_DX07S016JA1R1500" H 3650 1800 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/206/JAE_Electronics_01282020_DX07-1729578.pdf" H 3650 1800 50  0001 C CNN
+F 4 "DX07S016JA" H 3500 1800 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 3500 1800 50  0001 C CNN "Supplier 1"
+F 6 "656-DX07S016JA1R1500 " H 3500 1800 50  0001 C CNN "Supplier 1 nr"
+	1    3500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR06
+U 1 1 5FAE3014
+P 3200 2700
+F 0 "#PWR06" H 3200 2450 50  0001 C CNN
+F 1 "GND" H 3200 2550 50  0001 C CNN
+F 2 "" H 3200 2700 50  0001 C CNN
+F 3 "" H 3200 2700 50  0001 C CNN
+	1    3200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR011
+U 1 1 5FAE3251
+P 3500 2700
+F 0 "#PWR011" H 3500 2450 50  0001 C CNN
+F 1 "GND" H 3500 2550 50  0001 C CNN
+F 2 "" H 3500 2700 50  0001 C CNN
+F 3 "" H 3500 2700 50  0001 C CNN
+	1    3500 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 1800 4100 1700
+Wire Wire Line
+	4100 2000 4100 1900
+$Comp
+L Matrioszka-connectors:Goldpin1x6_right J?
+U 1 1 5FB1E24D
+P 2450 3050
+AR Path="/5F91A24D/5FB1E24D" Ref="J?"  Part="1" 
+AR Path="/5FB1E24D" Ref="J2"  Part="1" 
+F 0 "J2" H 2450 3350 50  0000 C CNN
+F 1 "Goldpin1x6_right" H 2450 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 2450 3050 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf?__cf_chl_jschl_tk__=cccca944239b43b6183a0c0e8c0a05f3c96542e4-1603440671-0-AY5Xk5ZvqY7DJmAtrxUX2Jp6iYi1N6ZJYnws4sfdJwuKG18pmCCXkza1kyFdlerlMoPWfQj_WODCeBRv66SNbphzER6rzbr_cyzML6IZrAAWnpfKZHOBCQUy9guyzR_JHxykv0jfZ7zDmw6lvD5wAB78XDcSQpPzZjNZQB9m1mXTrpJhRXRUOXC5bC5sxvbyslz6mUV2V3Cz2_fyT1yDXxvIBjP-MPG4FHi68GUmt2XmDbaZylER6DpKyD0G5t1hUCMlUyR13yGN7WB9emv8IpeDb_gw2W8BGJQxBcn3DAFoO10eT7AX0iC6xmwIqvXGuZUsHt5AIAYm2pGxR4snwGynbZb18dE-CxRbHdtltGXU66WqCHuxNmlyLmoiRVAdW4fmbdKfIUwtIeHoOaI7fuEQeHW-GTuLl9wrinyEiVKlcrOFLfuSPPiRvPx4yAAoRFjrFfqfAql9fR6SvSrp5wU" H 2450 3050 50  0001 C CNN
+F 4 "10129379-906003BLF " H 2450 3050 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 2450 3050 50  0001 C CNN "Supplier 1"
+F 6 "649-1012937990603BLF " H 2450 3050 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 2450 3050 50  0001 C CNN "Generic"
+	1    2450 3050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR03
+U 1 1 5FB1F51E
+P 2700 3050
+F 0 "#PWR03" H 2700 2800 50  0001 C CNN
+F 1 "GND" H 2700 2900 50  0001 C CNN
+F 2 "" H 2700 3050 50  0001 C CNN
+F 3 "" H 2700 3050 50  0001 C CNN
+	1    2700 3050
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2650 3050 2700 3050
+Text Notes 2000 4200 2    118  ~ 0
+UART
+$Comp
+L Matrioszka-connectors:Goldpin1x4_right J?
+U 1 1 5FB4327B
+P 2450 4100
+AR Path="/5F91A24D/5FB4327B" Ref="J?"  Part="1" 
+AR Path="/5FB4327B" Ref="J3"  Part="1" 
+F 0 "J3" H 2500 4350 50  0000 C CNN
+F 1 "Goldpin1x4_right" H 2450 3800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 2450 4100 50  0001 C CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/documentation/datasheet/boardwiretoboard/bwb_econostik_254headers.pdf?__cf_chl_jschl_tk__=cccca944239b43b6183a0c0e8c0a05f3c96542e4-1603440671-0-AY5Xk5ZvqY7DJmAtrxUX2Jp6iYi1N6ZJYnws4sfdJwuKG18pmCCXkza1kyFdlerlMoPWfQj_WODCeBRv66SNbphzER6rzbr_cyzML6IZrAAWnpfKZHOBCQUy9guyzR_JHxykv0jfZ7zDmw6lvD5wAB78XDcSQpPzZjNZQB9m1mXTrpJhRXRUOXC5bC5sxvbyslz6mUV2V3Cz2_fyT1yDXxvIBjP-MPG4FHi68GUmt2XmDbaZylER6DpKyD0G5t1hUCMlUyR13yGN7WB9emv8IpeDb_gw2W8BGJQxBcn3DAFoO10eT7AX0iC6xmwIqvXGuZUsHt5AIAYm2pGxR4snwGynbZb18dE-CxRbHdtltGXU66WqCHuxNmlyLmoiRVAdW4fmbdKfIUwtIeHoOaI7fuEQeHW-GTuLl9wrinyEiVKlcrOFLfuSPPiRvPx4yAAoRFjrFfqfAql9fR6SvSrp5wU" H 2450 4100 50  0001 C CNN
+F 4 "10129379-904003BLF " H 2450 4100 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 2450 4100 50  0001 C CNN "Supplier 1"
+F 6 " 649-1012937990403BLF " H 2450 4100 50  0001 C CNN "Supplier 1 nr"
+	1    2450 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR04
+U 1 1 5FB4EF7C
+P 2700 4300
+F 0 "#PWR04" H 2700 4050 50  0001 C CNN
+F 1 "GND" H 2700 4150 50  0001 C CNN
+F 2 "" H 2700 4300 50  0001 C CNN
+F 3 "" H 2700 4300 50  0001 C CNN
+	1    2700 4300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	2700 4300 2650 4300
+Text Notes 2550 3700 2    50   ~ 0
+Reset \nbutton
+$Comp
+L Matrioszka:GND #PWR05
+U 1 1 5FB66861
+P 2750 3800
+F 0 "#PWR05" H 2750 3550 50  0001 C CNN
+F 1 "GND" H 2750 3650 50  0001 C CNN
+F 2 "" H 2750 3800 50  0001 C CNN
+F 3 "" H 2750 3800 50  0001 C CNN
+	1    2750 3800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 3400 2750 3250
+Connection ~ 2750 3250
+Wire Wire Line
+	2750 3250 2650 3250
+$Comp
+L Matrioszka_Resistors:0r0603 R4
+U 1 1 5FA915C4
+P 3300 4950
+F 0 "R4" V 3350 5000 50  0001 C CNN
+F 1 "0r" V 3300 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2680 4950 50  0001 C CNN
+F 3 "" H 3300 4950 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 3300 4950 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 3300 4950 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 4000 5250 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 3300 4950 50  0001 C CNN "Generic"
+	1    3300 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka_Resistors:0r0603 R5
+U 1 1 5FA915BA
+P 3300 5050
+F 0 "R5" V 3350 5100 50  0001 C CNN
+F 1 "0r" V 3300 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2680 5050 50  0001 C CNN
+F 3 "" H 3300 5050 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 3300 5050 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 3300 5050 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 4000 5350 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 3300 5050 50  0001 C CNN "Generic"
+	1    3300 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka_Resistors:0r0603 R6
+U 1 1 5FA915B0
+P 3300 5150
+F 0 "R6" V 3350 5200 50  0001 C CNN
+F 1 "0r" V 3300 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2680 5150 50  0001 C CNN
+F 3 "" H 3300 5150 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 3300 5150 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 3300 5150 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 4000 5450 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 3300 5150 50  0001 C CNN "Generic"
+	1    3300 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka_Resistors:0r0603 R7
+U 1 1 5FA915A6
+P 3300 5250
+F 0 "R7" V 3350 5300 50  0001 C CNN
+F 1 "0r" V 3300 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2680 5250 50  0001 C CNN
+F 3 "" H 3300 5250 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 3300 5250 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 3300 5250 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 4000 5550 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 3300 5250 50  0001 C CNN "Generic"
+	1    3300 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka:WE615004143821 J4
+U 1 1 5FAAE6B8
+P 2650 5150
+F 0 "J4" H 2450 5750 50  0000 R CNN
+F 1 "WE615004143821" H 2350 5650 50  0000 L CNN
+F 2 "Matrioszka:WE_615004143821" V 2650 5175 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/445/615004143821-1717861.pdf" V 2650 5175 50  0001 C CNN
+F 4 "615004143821" H 2650 5150 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 2650 5150 50  0001 C CNN "Supplier 1"
+F 6 "710-615004143821" H 2650 5150 50  0001 C CNN "Supplier 1 nr"
+	1    2650 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4950 3150 4950
+Wire Wire Line
+	3150 5050 3050 5050
+Wire Wire Line
+	3050 5150 3150 5150
+Wire Wire Line
+	3150 5250 3050 5250
+$Comp
+L Matrioszka:GND #PWR08
+U 1 1 5FABC3B0
+P 3450 5250
+F 0 "#PWR08" H 3450 5000 50  0001 C CNN
+F 1 "GND" H 3450 5100 50  0001 C CNN
+F 2 "" H 3450 5250 50  0001 C CNN
+F 3 "" H 3450 5250 50  0001 C CNN
+	1    3450 5250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka:GND #PWR07
+U 1 1 5FABC7E7
+P 3450 4950
+F 0 "#PWR07" H 3450 4700 50  0001 C CNN
+F 1 "GND" H 3450 4800 50  0001 C CNN
+F 2 "" H 3450 4950 50  0001 C CNN
+F 3 "" H 3450 4950 50  0001 C CNN
+	1    3450 4950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka_Resistors:0r0603 R8
+U 1 1 5FABFB35
+P 3300 6000
+F 0 "R8" V 3350 6050 50  0001 C CNN
+F 1 "0r" V 3300 6000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2680 6000 50  0001 C CNN
+F 3 "" H 3300 6000 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 3300 6000 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 3300 6000 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 4000 6300 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 3300 6000 50  0001 C CNN "Generic"
+	1    3300 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka_Resistors:0r0603 R9
+U 1 1 5FABFB3F
+P 3300 6100
+F 0 "R9" V 3350 6150 50  0001 C CNN
+F 1 "0r" V 3300 6100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2680 6100 50  0001 C CNN
+F 3 "" H 3300 6100 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 3300 6100 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 3300 6100 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 4000 6400 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 3300 6100 50  0001 C CNN "Generic"
+	1    3300 6100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka_Resistors:0r0603 R10
+U 1 1 5FABFB49
+P 3300 6200
+F 0 "R10" V 3350 6250 50  0001 C CNN
+F 1 "0r" V 3300 6200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2680 6200 50  0001 C CNN
+F 3 "" H 3300 6200 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 3300 6200 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 3300 6200 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 4000 6500 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 3300 6200 50  0001 C CNN "Generic"
+	1    3300 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka_Resistors:0r0603 R11
+U 1 1 5FABFB53
+P 3300 6300
+F 0 "R11" V 3350 6350 50  0001 C CNN
+F 1 "0r" V 3300 6300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2680 6300 50  0001 C CNN
+F 3 "" H 3300 6300 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 3300 6300 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 3300 6300 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 4000 6600 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 3300 6300 50  0001 C CNN "Generic"
+	1    3300 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka:WE615004143821 J5
+U 1 1 5FABFB5C
+P 2650 6200
+F 0 "J5" H 2450 6800 50  0000 R CNN
+F 1 "WE615004143821" H 2350 6700 50  0000 L CNN
+F 2 "Matrioszka:WE_615004143821" V 2650 6225 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/445/615004143821-1717861.pdf" V 2650 6225 50  0001 C CNN
+F 4 "615004143821" H 2650 6200 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 2650 6200 50  0001 C CNN "Supplier 1"
+F 6 "710-615004143821" H 2650 6200 50  0001 C CNN "Supplier 1 nr"
+	1    2650 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6000 3150 6000
+Wire Wire Line
+	3150 6100 3050 6100
+Wire Wire Line
+	3050 6200 3150 6200
+Wire Wire Line
+	3150 6300 3050 6300
+$Comp
+L Matrioszka:GND #PWR010
+U 1 1 5FABFB68
+P 3450 6300
+F 0 "#PWR010" H 3450 6050 50  0001 C CNN
+F 1 "GND" H 3450 6150 50  0001 C CNN
+F 2 "" H 3450 6300 50  0001 C CNN
+F 3 "" H 3450 6300 50  0001 C CNN
+	1    3450 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka:GND #PWR09
+U 1 1 5FABFB6E
+P 3450 6000
+F 0 "#PWR09" H 3450 5750 50  0001 C CNN
+F 1 "GND" H 3450 5850 50  0001 C CNN
+F 2 "" H 3450 6000 50  0001 C CNN
+F 3 "" H 3450 6000 50  0001 C CNN
+	1    3450 6000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3450 6100 3600 6100
+Wire Wire Line
+	3600 6100 3600 5050
+Wire Wire Line
+	3600 5050 3450 5050
+Connection ~ 3600 5050
+Wire Wire Line
+	4000 5050 3600 5050
+$Sheet
+S 4000 5000 550  650 
+U 5F99A2A8
+F0 "CAN" 50
+F1 "CAN.sch" 50
+F2 "CAN_TX" I R 4550 5350 50 
+F3 "CAN_RX" O R 4550 5450 50 
+F4 "CANH" B L 4000 5050 50 
+F5 "CANL" B L 4000 5150 50 
+F6 "CAN_NEN" I R 4550 5550 51 
+$EndSheet
+$Sheet
+S 7500 1100 500  500 
+U 5F997137
+F0 "TEMP_SENSOR" 50
+F1 "TEMP SENSOR.sch" 50
+F2 "SDA" I L 7500 1300 50 
+F3 "SCL" I L 7500 1400 50 
+$EndSheet
+Wire Wire Line
+	4550 5450 5000 5450
+Wire Wire Line
+	4550 5350 5000 5350
+Wire Wire Line
+	7500 1400 7300 1400
+Wire Wire Line
+	7500 1300 7200 1300
+Text Label 9550 5150 0    50   ~ 0
+GPIO_PC0
+Text Label 9550 5050 0    50   ~ 0
+GPIO_PC1
+Text Label 9550 5250 0    50   ~ 0
+GPIO_PC2
+Text Label 9550 5450 0    50   ~ 0
+GPIO_PA0
+Text Label 9050 6350 2    50   ~ 0
+GPIO_PA2
+Text Label 9550 6450 0    50   ~ 0
+GPIO_PA3
+Text Label 9050 6550 2    50   ~ 0
+GPIO_PC4
+Text Label 9550 6550 0    50   ~ 0
+GPIO_PC5
+Text Label 9550 6650 0    50   ~ 0
+GPIO_PB1
+Text Label 9050 5850 2    50   ~ 0
+GPIO_PC10
+Text Label 9550 6050 0    50   ~ 0
+GPIO_PA15
+Text Label 9050 6050 2    50   ~ 0
+GPIO_PC8
+Text Label 9050 6150 2    50   ~ 0
+GPIO_PC7
+Text Label 9050 6250 2    50   ~ 0
+GPIO_PC6
+Text Label 9550 6250 0    50   ~ 0
+GPIO_PB15
+Text Label 9050 6450 2    50   ~ 0
+GPIO_PB14
+Text Label 9050 5750 2    50   ~ 0
+GPIO_PC11
+Text Label 9050 5650 2    50   ~ 0
+GPIO_PC12
+Text Label 9550 5850 0    50   ~ 0
+GPIO_PB5
+Text Label 9550 5750 0    50   ~ 0
+GPIO_PB6
+Text Label 9550 5550 0    50   ~ 0
+GPIO_PB7
+Text Label 9050 5450 2    50   ~ 0
+GPIO_PB9
+Text Label 9050 5350 2    50   ~ 0
+GPIO_PC13
+Text Label 9050 5250 2    50   ~ 0
+GPIO_PC14
+Text Label 9050 5050 2    50   ~ 0
+GPIO_PC15
+Text Label 7150 5300 0    50   ~ 0
+GPIO_PC10
+Text Label 7150 5400 0    50   ~ 0
+GPIO_PA15
+Text Label 7150 5500 0    50   ~ 0
+GPIO_PC8
+Text Label 7150 5600 0    50   ~ 0
+GPIO_PC7
+Text Label 7150 5700 0    50   ~ 0
+GPIO_PC6
+Text Label 7150 5800 0    50   ~ 0
+GPIO_PB15
+Text Label 7150 5900 0    50   ~ 0
+GPIO_PB14
+Text Label 7150 6100 0    50   ~ 0
+GPIO_PB10
+Text Label 7150 6200 0    50   ~ 0
+GPIO_PB2
+Text Label 7150 5200 0    50   ~ 0
+GPIO_PC11
+Text Label 7150 5100 0    50   ~ 0
+GPIO_PC12
+Text Label 7150 6300 0    50   ~ 0
+GPIO_PB1
+Text Label 7150 6400 0    50   ~ 0
+GPIO_PC5
+Text Label 7150 6500 0    50   ~ 0
+GPIO_PC4
+Text Label 7150 6600 0    50   ~ 0
+GPIO_PA3
+Text Label 7150 6700 0    50   ~ 0
+GPIO_PA2
+Text Label 7150 6800 0    50   ~ 0
+GPIO_PA0
+Text Label 7150 6900 0    50   ~ 0
+GPIO_PC2
+Text Label 7150 7000 0    50   ~ 0
+GPIO_PC1
+Text Label 7150 7100 0    50   ~ 0
+GPIO_PC0
+Wire Wire Line
+	7000 5100 7150 5100
+Wire Wire Line
+	7000 5200 7150 5200
+Wire Wire Line
+	7000 5300 7150 5300
+Wire Wire Line
+	7000 5400 7150 5400
+Wire Wire Line
+	7000 5500 7150 5500
+Wire Wire Line
+	7000 5600 7150 5600
+Wire Wire Line
+	7000 5700 7150 5700
+Wire Wire Line
+	7000 5800 7150 5800
+Wire Wire Line
+	7000 5900 7150 5900
+Wire Wire Line
+	7000 6100 7150 6100
+Wire Wire Line
+	7000 6200 7150 6200
+Wire Wire Line
+	7000 6300 7150 6300
+Wire Wire Line
+	7000 6400 7150 6400
+Wire Wire Line
+	7000 6500 7150 6500
+Wire Wire Line
+	7000 6600 7150 6600
+Wire Wire Line
+	7000 6700 7150 6700
+Wire Wire Line
+	7000 6800 7150 6800
+Wire Wire Line
+	7000 6900 7150 6900
+Wire Wire Line
+	7000 7000 7150 7000
+Wire Wire Line
+	7000 7100 7150 7100
+$Comp
+L Matrioszka-connectors:PhoenixContact_1776508 J?
+U 1 1 5F9BD2DA
+P 2400 7000
+AR Path="/5FCEE140/5F9BD2DA" Ref="J?"  Part="1" 
+AR Path="/5F9BD2DA" Ref="J1"  Part="1" 
+F 0 "J1" H 2150 7300 50  0000 C CNN
+F 1 "PhoenixContact_1776508" H 3050 7200 50  0000 R CNN
+F 2 "Connector_Phoenix_MSTB:PhoenixContact_MSTB_2,5_2-GF-5,08_1x02_P5.08mm_Horizontal_ThreadedFlange_MountHole" H 2400 7000 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/324/4/1776508-1442983.pdf" H 2400 7000 50  0001 C CNN
+F 4 "1776508" H 2400 7000 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 2400 7000 50  0001 C CNN "Supplier 1"
+F 6 "651-1776508" H 2400 7000 50  0001 C CNN "Supplier 1 nr"
+F 7 "PhoenixContact_1809734" H 2400 7000 50  0001 C CNN "Add to Bom"
+	1    2400 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 4000 5000 4000
+Wire Wire Line
+	2650 4100 5000 4100
+Wire Wire Line
+	2650 4200 5000 4200
+Wire Wire Line
+	2650 2950 5000 2950
+Wire Wire Line
+	2650 3150 5000 3150
+Wire Wire Line
+	2750 3250 5000 3250
+Wire Wire Line
+	4100 1900 5000 1900
+Wire Wire Line
+	4100 1700 5000 1700
+Wire Wire Line
+	4100 1500 5000 1500
+Wire Wire Line
+	4100 1400 5000 1400
+Wire Wire Line
+	4100 1200 5000 1200
+Wire Wire Line
+	4100 2400 5000 2400
+Wire Wire Line
+	4100 2300 5000 2300
+Text Notes 2000 5150 2    118  ~ 0
+CAN
+Text Notes 2000 6250 2    118  ~ 0
+CAN
+Text Notes 2000 7100 2    118  ~ 0
+POWER
+Wire Wire Line
+	2600 7100 3200 7100
+Text Notes 9600 4450 2    118  ~ 0
+GPIO 
+Text Label 7150 3100 0    51   ~ 0
+AIN0
+Text Label 7150 3200 0    51   ~ 0
+AIN1
+Text Label 7150 3300 0    51   ~ 0
+AIN2
+Text Label 7150 3400 0    51   ~ 0
+AIN3
+Text Label 7150 3500 0    51   ~ 0
+AIN4
+Text Label 7150 3600 0    51   ~ 0
+AIN5
+Text Label 7150 3800 0    51   ~ 0
+AOUT0
+Text Label 7150 3900 0    51   ~ 0
+AOUT1
+Text Label 7150 4000 0    51   ~ 0
+AOUT2
+Wire Wire Line
+	7000 3100 7150 3100
+Wire Wire Line
+	7000 3200 7150 3200
+Wire Wire Line
+	7000 3300 7150 3300
+Wire Wire Line
+	7000 3400 7150 3400
+Wire Wire Line
+	7000 3500 7150 3500
+Wire Wire Line
+	7000 3600 7150 3600
+Wire Wire Line
+	7000 3800 7150 3800
+Wire Wire Line
+	7000 3900 7150 3900
+Wire Wire Line
+	7000 4000 7150 4000
+Text Label 9050 4050 2    51   ~ 0
+AIN0
+Text Label 9050 3950 2    51   ~ 0
+AIN1
+Text Label 9050 3850 2    51   ~ 0
+AIN2
+Text Label 9050 3750 2    51   ~ 0
+AIN3
+Text Label 9050 3650 2    51   ~ 0
+AIN4
+Text Label 9050 3550 2    51   ~ 0
+AIN5
+Text Label 9050 3350 2    51   ~ 0
+AOUT0
+Text Label 9050 3250 2    51   ~ 0
+AOUT1
+Text Label 9050 3150 2    51   ~ 0
+AOUT2
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FB82F07
+P 9050 5150
+AR Path="/5F91A24D/5FB82F07" Ref="#PWR?"  Part="1" 
+AR Path="/5FB82F07" Ref="#PWR024"  Part="1" 
+F 0 "#PWR024" H 9050 4900 50  0001 C CNN
+F 1 "GND" H 9050 5000 50  0001 C CNN
+F 2 "" H 9050 5150 50  0001 C CNN
+F 3 "" H 9050 5150 50  0001 C CNN
+	1    9050 5150
+	0    1    -1   0   
+$EndComp
+Text Label 7200 1800 3    51   ~ 0
+GPIO_SDA
+$Comp
+L power:+5V #PWR?
+U 1 1 5FB9C9C3
+P 9550 4750
+AR Path="/5F91A24D/5FB9C9C3" Ref="#PWR?"  Part="1" 
+AR Path="/5FB9C9C3" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 9550 4600 50  0001 C CNN
+F 1 "+5V" V 9550 4900 50  0000 L CNN
+F 2 "" H 9550 4750 50  0001 C CNN
+F 3 "" H 9550 4750 50  0001 C CNN
+	1    9550 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FB9CD06
+P 9550 4850
+AR Path="/5F91A24D/5FB9CD06" Ref="#PWR?"  Part="1" 
+AR Path="/5FB9CD06" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 9550 4700 50  0001 C CNN
+F 1 "+5V" V 9550 5000 50  0000 L CNN
+F 2 "" H 9550 4850 50  0001 C CNN
+F 3 "" H 9550 4850 50  0001 C CNN
+	1    9550 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FB9D220
+P 9550 4950
+AR Path="/5F91A24D/5FB9D220" Ref="#PWR?"  Part="1" 
+AR Path="/5FB9D220" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 9550 4700 50  0001 C CNN
+F 1 "GND" H 9550 4800 50  0001 C CNN
+F 2 "" H 9550 4950 50  0001 C CNN
+F 3 "" H 9550 4950 50  0001 C CNN
+	1    9550 4950
+	0    -1   1    0   
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FB9DC65
+P 9050 5950
+AR Path="/5F91A24D/5FB9DC65" Ref="#PWR?"  Part="1" 
+AR Path="/5FB9DC65" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 9050 5700 50  0001 C CNN
+F 1 "GND" H 9050 5800 50  0001 C CNN
+F 2 "" H 9050 5950 50  0001 C CNN
+F 3 "" H 9050 5950 50  0001 C CNN
+	1    9050 5950
+	0    1    -1   0   
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FB9E271
+P 9050 6650
+AR Path="/5F91A24D/5FB9E271" Ref="#PWR?"  Part="1" 
+AR Path="/5FB9E271" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 9050 6400 50  0001 C CNN
+F 1 "GND" H 9050 6500 50  0001 C CNN
+F 2 "" H 9050 6650 50  0001 C CNN
+F 3 "" H 9050 6650 50  0001 C CNN
+	1    9050 6650
+	0    1    -1   0   
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FB9FB24
+P 9550 6350
+AR Path="/5F91A24D/5FB9FB24" Ref="#PWR?"  Part="1" 
+AR Path="/5FB9FB24" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 9550 6100 50  0001 C CNN
+F 1 "GND" H 9550 6200 50  0001 C CNN
+F 2 "" H 9550 6350 50  0001 C CNN
+F 3 "" H 9550 6350 50  0001 C CNN
+	1    9550 6350
+	0    -1   1    0   
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FB9FF3D
+P 9550 6150
+AR Path="/5F91A24D/5FB9FF3D" Ref="#PWR?"  Part="1" 
+AR Path="/5FB9FF3D" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 9550 5900 50  0001 C CNN
+F 1 "GND" H 9550 6000 50  0001 C CNN
+F 2 "" H 9550 6150 50  0001 C CNN
+F 3 "" H 9550 6150 50  0001 C CNN
+	1    9550 6150
+	0    -1   1    0   
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FBA04D1
+P 9550 5650
+AR Path="/5F91A24D/5FBA04D1" Ref="#PWR?"  Part="1" 
+AR Path="/5FBA04D1" Ref="#PWR040"  Part="1" 
+F 0 "#PWR040" H 9550 5400 50  0001 C CNN
+F 1 "GND" H 9550 5500 50  0001 C CNN
+F 2 "" H 9550 5650 50  0001 C CNN
+F 3 "" H 9550 5650 50  0001 C CNN
+	1    9550 5650
+	0    -1   1    0   
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FBA0849
+P 9550 5350
+AR Path="/5F91A24D/5FBA0849" Ref="#PWR?"  Part="1" 
+AR Path="/5FBA0849" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 9550 5100 50  0001 C CNN
+F 1 "GND" H 9550 5200 50  0001 C CNN
+F 2 "" H 9550 5350 50  0001 C CNN
+F 3 "" H 9550 5350 50  0001 C CNN
+	1    9550 5350
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FBA3D7B
+P 9050 5550
+AR Path="/5F91A24D/5FBA3D7B" Ref="#PWR?"  Part="1" 
+AR Path="/5FBA3D7B" Ref="#PWR025"  Part="1" 
+F 0 "#PWR025" H 9050 5400 50  0001 C CNN
+F 1 "+3.3V" V 9050 5700 50  0000 L CNN
+F 2 "" H 9050 5550 50  0001 C CNN
+F 3 "" H 9050 5550 50  0001 C CNN
+	1    9050 5550
+	0    -1   1    0   
+$EndComp
+Text Notes 10000 5050 0    51   Italic 0
+UART TX
+Text Notes 10000 5250 0    51   Italic 0
+PWM
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FBB1D2A
+P 9050 3450
+AR Path="/5F91A24D/5FBB1D2A" Ref="#PWR?"  Part="1" 
+AR Path="/5FBB1D2A" Ref="#PWR022"  Part="1" 
+F 0 "#PWR022" H 9050 3200 50  0001 C CNN
+F 1 "GND" H 9050 3300 50  0001 C CNN
+F 2 "" H 9050 3450 50  0001 C CNN
+F 3 "" H 9050 3450 50  0001 C CNN
+	1    9050 3450
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FB9C34B
+P 9050 4750
+AR Path="/5F91A24D/5FB9C34B" Ref="#PWR?"  Part="1" 
+AR Path="/5FB9C34B" Ref="#PWR023"  Part="1" 
+F 0 "#PWR023" H 9050 4600 50  0001 C CNN
+F 1 "+3.3V" V 9050 4900 50  0000 L CNN
+F 2 "" H 9050 4750 50  0001 C CNN
+F 3 "" H 9050 4750 50  0001 C CNN
+	1    9050 4750
+	0    -1   1    0   
+$EndComp
+Text Notes 8200 5650 0    51   Italic 0
+SPI MOSI
+Text Notes 8200 5750 0    51   Italic 0
+SPI MISO
+Text Notes 8200 5850 0    51   Italic 0
+SPI SLCK\n
+Text Notes 10000 5150 0    51   Italic 0
+UART RX
+Text Notes 8450 4900 0    51   Italic 0
+I2C
+Text Notes 9050 4550 0    51   Italic 0
+RPI compatible
+Text Notes 9100 2900 0    51   ~ 0
+Analog\n(Can be used as GPIO)\n
+Text Notes 2000 1600 2    118  ~ 0
+USB-C
+Text Label 9550 2100 3    50   ~ 0
+GPIO_PB10
+Text Label 10050 2100 3    50   ~ 0
+GPIO_PB2
+$Comp
+L Matrioszka:LED_BLUE_ANGLE D?
+U 1 1 5FBE9061
+P 9050 1850
+AR Path="/5FCEE140/5FBE9061" Ref="D?"  Part="1" 
+AR Path="/5FBE9061" Ref="D1"  Part="1" 
+F 0 "D1" H 9000 1700 50  0000 L CNN
+F 1 "LED_BLUE_ANGLE" H 9050 1750 50  0001 C CNN
+F 2 "Matrioszka:WUERTH_155124" H 9050 1850 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/445/155124BS73200A-1714797.pdf" H 9050 1850 50  0001 C CNN
+F 4 "155124BS73200A " H 9050 1850 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 9050 1850 50  0001 C CNN "Supplier 1"
+F 6 "710-155124BS73200A " H 9050 1850 50  0001 C CNN "Supplier 1 nr"
+F 7 "Blue" H 9000 1600 50  0000 L CNN "Color"
+	1    9050 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka:LED_RED_ANGLE D?
+U 1 1 5FBE907B
+P 9550 1850
+AR Path="/5FCEE140/5FBE907B" Ref="D?"  Part="1" 
+AR Path="/5FBE907B" Ref="D2"  Part="1" 
+F 0 "D2" H 9550 1700 50  0000 C CNN
+F 1 "LED_RED_ANGLE" H 9200 2100 50  0001 C CNN
+F 2 "Matrioszka:WUERTH_155124" H 9550 1850 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/445/155124BS73200A-1714797.pdf" H 9550 1850 50  0001 C CNN
+F 4 "155124RS73200" H 9550 1850 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 9550 1850 50  0001 C CNN "Supplier 1"
+F 6 "710-155124RS73200 " H 9550 1850 50  0001 C CNN "Supplier 1 nr"
+F 7 "Red" H 9500 1600 50  0000 L CNN "Color"
+	1    9550 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka:LED_GREEN_ANGLE D?
+U 1 1 5FBE9096
+P 10050 1850
+AR Path="/5FCEE140/5FBE9096" Ref="D?"  Part="1" 
+AR Path="/5FBE9096" Ref="D3"  Part="1" 
+F 0 "D3" H 10050 1700 50  0000 C CNN
+F 1 "LED_GREEN_ANGLE" H 10050 1750 50  0001 C CNN
+F 2 "Matrioszka:WUERTH_155124" H 10050 1850 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/445/155124BS73200A-1714797.pdf" H 10050 1850 50  0001 C CNN
+F 4 "155124VS73200 " H 10050 1850 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 10050 1850 50  0001 C CNN "Supplier 1"
+F 6 "710-155124VS73200" H 10050 1850 50  0001 C CNN "Supplier 1 nr"
+F 7 "Green" H 10100 1600 50  0000 C CNN "Color"
+	1    10050 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka_Resistors:10k0603 R?
+U 1 1 5FBF35E1
+P 9050 1550
+AR Path="/5FCEE140/5FBF35E1" Ref="R?"  Part="1" 
+AR Path="/5FBF35E1" Ref="R14"  Part="1" 
+F 0 "R14" V 9200 1500 50  0000 C CNN
+F 1 "1k" V 9300 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8430 1550 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/315/Panasonic_Resistors_Thick_Film_Anti_Sulf_Anti_Surg-1825099.pdf" H 9050 1550 50  0001 C CNN
+F 4 "CRCW06031K00FKEAC" H 9050 1550 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 9050 1550 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06031K00FKEAC" H 9750 1850 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 9050 1550 50  0001 C CNN "Generic"
+	1    9050 1550
+	1    0    0    -1  
+$EndComp
+Text Notes 9950 750  2    118  ~ 0
+USER LEDS
+Text Notes 8250 2300 2    118  ~ 0
+TEMP\nRH\nSENSOR
+$Comp
+L Mechanical:MountingHole_Pad Screw6
+U 1 1 5FC3C056
+P 11000 7050
+F 0 "Screw6" V 10850 6900 50  0000 C CNN
+F 1 "MountingHole_Pad" H 11000 7225 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 11000 7050 50  0001 C CNN
+F 3 "~" H 11000 7050 50  0001 C CNN
+	1    11000 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FC3C05C
+P 11000 7450
+AR Path="/5F91A24D/5FC3C05C" Ref="#PWR?"  Part="1" 
+AR Path="/5FC3C05C" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 11000 7200 50  0001 C CNN
+F 1 "GND" H 11000 7300 50  0001 C CNN
+F 2 "" H 11000 7450 50  0001 C CNN
+F 3 "" H 11000 7450 50  0001 C CNN
+	1    11000 7450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Resistors:0r0603 R20
+U 1 1 5FC3C066
+P 11000 7300
+F 0 "R20" V 11050 7350 50  0001 C CNN
+F 1 "0r" V 11000 7300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 10380 7300 50  0001 C CNN
+F 3 "" H 11000 7300 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 11000 7300 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 11000 7300 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 11700 7600 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 11000 7300 50  0001 C CNN "Generic"
+	1    11000 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad Screw5
+U 1 1 5FC5356C
+P 11000 800
+F 0 "Screw5" V 10850 650 50  0000 C CNN
+F 1 "MountingHole_Pad" H 11000 975 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 11000 800 50  0001 C CNN
+F 3 "~" H 11000 800 50  0001 C CNN
+	1    11000 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FC53572
+P 11000 1200
+AR Path="/5F91A24D/5FC53572" Ref="#PWR?"  Part="1" 
+AR Path="/5FC53572" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 11000 950 50  0001 C CNN
+F 1 "GND" H 11000 1050 50  0001 C CNN
+F 2 "" H 11000 1200 50  0001 C CNN
+F 3 "" H 11000 1200 50  0001 C CNN
+	1    11000 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Resistors:0r0603 R19
+U 1 1 5FC5357C
+P 11000 1050
+F 0 "R19" V 11050 1100 50  0001 C CNN
+F 1 "0r" V 11000 1050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 10380 1050 50  0001 C CNN
+F 3 "" H 11000 1050 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 11000 1050 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 11000 1050 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 11700 1350 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 11000 1050 50  0001 C CNN "Generic"
+	1    11000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad Screw1
+U 1 1 5FC57415
+P 750 800
+F 0 "Screw1" V 600 650 50  0000 C CNN
+F 1 "MountingHole_Pad" H 750 975 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 750 800 50  0001 C CNN
+F 3 "~" H 750 800 50  0001 C CNN
+	1    750  800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FC5741B
+P 750 1200
+AR Path="/5F91A24D/5FC5741B" Ref="#PWR?"  Part="1" 
+AR Path="/5FC5741B" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 750 950 50  0001 C CNN
+F 1 "GND" H 750 1050 50  0001 C CNN
+F 2 "" H 750 1200 50  0001 C CNN
+F 3 "" H 750 1200 50  0001 C CNN
+	1    750  1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Resistors:0r0603 R1
+U 1 1 5FC57425
+P 750 1050
+F 0 "R1" V 800 1100 50  0001 C CNN
+F 1 "0r" V 750 1050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 130 1050 50  0001 C CNN
+F 3 "" H 750 1050 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 750 1050 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 750 1050 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 1450 1350 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 750 1050 50  0001 C CNN "Generic"
+	1    750  1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad Screw2
+U 1 1 5FC5B34A
+P 800 7050
+F 0 "Screw2" V 650 6900 50  0000 C CNN
+F 1 "MountingHole_Pad" H 800 7225 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 800 7050 50  0001 C CNN
+F 3 "~" H 800 7050 50  0001 C CNN
+	1    800  7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FC5B350
+P 800 7450
+AR Path="/5F91A24D/5FC5B350" Ref="#PWR?"  Part="1" 
+AR Path="/5FC5B350" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 800 7200 50  0001 C CNN
+F 1 "GND" H 800 7300 50  0001 C CNN
+F 2 "" H 800 7450 50  0001 C CNN
+F 3 "" H 800 7450 50  0001 C CNN
+	1    800  7450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Resistors:0r0603 R2
+U 1 1 5FC5B35A
+P 800 7300
+F 0 "R2" V 850 7350 50  0001 C CNN
+F 1 "0r" V 800 7300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 180 7300 50  0001 C CNN
+F 3 "" H 800 7300 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 800 7300 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 800 7300 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 1500 7600 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 800 7300 50  0001 C CNN "Generic"
+	1    800  7300
+	1    0    0    -1  
+$EndComp
+Text Notes 10050 6250 0    51   Italic 0
+PWM
+Text Notes 8400 6450 0    51   Italic 0
+PWM\n
+Text Notes 3300 3750 2    50   ~ 0
+Boot\n/User\nbutton
+Wire Wire Line
+	3500 3400 3500 3350
+Wire Wire Line
+	3500 3350 5000 3350
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FAAAE03
+P 3500 3800
+AR Path="/5F91A24D/5FAAAE03" Ref="#PWR?"  Part="1" 
+AR Path="/5FAAAE03" Ref="#PWR012"  Part="1" 
+F 0 "#PWR012" H 3500 3650 50  0001 C CNN
+F 1 "+3.3V" H 3200 3900 50  0000 L CNN
+F 2 "" H 3500 3800 50  0001 C CNN
+F 3 "" H 3500 3800 50  0001 C CNN
+	1    3500 3800
+	1    0    0    1   
+$EndComp
+Text Notes 1950 3150 2    118  ~ 0
+SWD
+$Comp
+L Matrioszka_Resistors:0r0603 R12
+U 1 1 5FB0E5F7
+P 7200 1600
+F 0 "R12" V 7250 1650 50  0001 C CNN
+F 1 "0r" V 7200 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6580 1600 50  0001 C CNN
+F 3 "" H 7200 1600 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 7200 1600 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 7200 1600 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 7900 1900 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 7200 1600 50  0001 C CNN "Generic"
+	1    7200 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Matrioszka_Resistors:0r0603 R13
+U 1 1 5FB0E601
+P 7300 1600
+F 0 "R13" V 7350 1650 50  0001 C CNN
+F 1 "0r" V 7300 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6680 1600 50  0001 C CNN
+F 3 "" H 7300 1600 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 7300 1600 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 7300 1600 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 8000 1900 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 7300 1600 50  0001 C CNN "Generic"
+	1    7300 1600
+	-1   0    0    1   
+$EndComp
+Text Label 7300 1800 3    51   ~ 0
+GPIO_SCL
+Wire Wire Line
+	7200 1450 7200 1300
+Connection ~ 7200 1300
+Wire Wire Line
+	7200 1300 7000 1300
+Wire Wire Line
+	7300 1450 7300 1400
+Connection ~ 7300 1400
+Wire Wire Line
+	7300 1400 7000 1400
+Wire Wire Line
+	7200 1750 7200 1800
+Wire Wire Line
+	7300 1800 7300 1750
+Wire Wire Line
+	2650 2850 5000 2850
+Wire Wire Line
+	2650 3350 2950 3350
+Wire Wire Line
+	3250 3350 3500 3350
+Connection ~ 3500 3350
+$Comp
+L Matrioszka_Resistors:1.6k0603 R3
+U 1 1 5FBB13DC
+P 3100 3350
+F 0 "R3" V 3050 3100 50  0000 C CNN
+F 1 "1.6k" V 3050 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2480 3350 50  0001 C CNN
+F 3 "" H 3100 3350 50  0001 C CNN
+F 4 "AC0603JR-071K6L" H 3100 3350 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 3100 3350 50  0001 C CNN "Supplier 1"
+F 6 "603-AC0603JR-071K6L" H 3800 3650 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 3100 3350 50  0001 C CNN "Generic"
+	1    3100 3350
+	0    1    1    0   
+$EndComp
+Text Notes 3350 6900 0    50   ~ 0
+6V-24V\n
+Text Notes 2550 7000 0    50   ~ 0
++
+$Comp
+L Matrioszka:Button_Angle SW1
+U 1 1 5FA04A77
+P 2750 3600
+F 0 "SW1" H 2600 3500 50  0000 L CNN
+F 1 "Button_Angle" H 2750 3540 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx83-2LFS" H 2750 3800 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/418/NG_CD_1825027_G4-754379.pdf" H 2750 3800 50  0001 C CNN
+F 4 "1-1825027-2" H 2750 3600 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 2750 3600 50  0001 C CNN "Supplier 1"
+F 6 "506-1-1825027-2 " H 2750 3600 50  0001 C CNN "Supplier 1 nr"
+	1    2750 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka:Button_Angle SW2
+U 1 1 5FA05896
+P 3500 3600
+F 0 "SW2" H 3350 3500 50  0000 L CNN
+F 1 "Button_Angle" H 3500 3540 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx83-2LFS" H 3500 3800 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/418/NG_CD_1825027_G4-754379.pdf" H 3500 3800 50  0001 C CNN
+F 4 "1-1825027-2" H 3500 3600 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 3500 3600 50  0001 C CNN "Supplier 1"
+F 6 "506-1-1825027-2 " H 3500 3600 50  0001 C CNN "Supplier 1 nr"
+	1    3500 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad Screw3
+U 1 1 5FAE7C4F
+P 10650 800
+F 0 "Screw3" V 10500 650 50  0000 C CNN
+F 1 "MountingHole_Pad" H 10650 975 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10650 800 50  0001 C CNN
+F 3 "~" H 10650 800 50  0001 C CNN
+	1    10650 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FAE7C55
+P 10650 1200
+AR Path="/5F91A24D/5FAE7C55" Ref="#PWR?"  Part="1" 
+AR Path="/5FAE7C55" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 10650 950 50  0001 C CNN
+F 1 "GND" H 10650 1050 50  0001 C CNN
+F 2 "" H 10650 1200 50  0001 C CNN
+F 3 "" H 10650 1200 50  0001 C CNN
+	1    10650 1200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Resistors:0r0603 R17
+U 1 1 5FAE7C5F
+P 10650 1050
+F 0 "R17" V 10700 1100 50  0001 C CNN
+F 1 "0r" V 10650 1050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 10030 1050 50  0001 C CNN
+F 3 "" H 10650 1050 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 10650 1050 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 10650 1050 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 11350 1350 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 10650 1050 50  0001 C CNN "Generic"
+	1    10650 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad Screw4
+U 1 1 5FAEBD35
+P 10650 7050
+F 0 "Screw4" V 10500 6900 50  0000 C CNN
+F 1 "MountingHole_Pad" H 10650 7225 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10650 7050 50  0001 C CNN
+F 3 "~" H 10650 7050 50  0001 C CNN
+	1    10650 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FAEBD3B
+P 10650 7450
+AR Path="/5F91A24D/5FAEBD3B" Ref="#PWR?"  Part="1" 
+AR Path="/5FAEBD3B" Ref="#PWR045"  Part="1" 
+F 0 "#PWR045" H 10650 7200 50  0001 C CNN
+F 1 "GND" H 10650 7300 50  0001 C CNN
+F 2 "" H 10650 7450 50  0001 C CNN
+F 3 "" H 10650 7450 50  0001 C CNN
+	1    10650 7450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Resistors:0r0603 R18
+U 1 1 5FAEBD45
+P 10650 7300
+F 0 "R18" V 10700 7350 50  0001 C CNN
+F 1 "0r" V 10650 7300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 10030 7300 50  0001 C CNN
+F 3 "" H 10650 7300 50  0001 C CNN
+F 4 "CRCW06030000Z0EBC" H 10650 7300 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 10650 7300 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06030000Z0EBC" H 11350 7600 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 10650 7300 50  0001 C CNN "Generic"
+	1    10650 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR016
+U 1 1 5FB1D078
+P 4500 7400
+F 0 "#PWR016" H 4500 7150 50  0001 C CNN
+F 1 "GND" H 4500 7250 50  0001 C CNN
+F 2 "" H 4500 7400 50  0001 C CNN
+F 3 "" H 4500 7400 50  0001 C CNN
+	1    4500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR020
+U 1 1 5FB1D07E
+P 4600 7400
+F 0 "#PWR020" H 4600 7150 50  0001 C CNN
+F 1 "GND" H 4600 7250 50  0001 C CNN
+F 2 "" H 4600 7400 50  0001 C CNN
+F 3 "" H 4600 7400 50  0001 C CNN
+	1    4600 7400
+	1    0    0    -1  
+$EndComp
+Text Notes 4400 7300 2    59   ~ 0
+Hat\nSupport\n
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J8
+U 1 1 5FB1D072
+P 4500 7100
+F 0 "J8" V 4750 6900 50  0000 C CNN
+F 1 "M20-9980246" H 4550 6900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 4500 7100 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/181/M20-998-1220570.pdf" H 4500 7100 50  0001 C CNN
+F 4 "M20-9980246" V 4500 7100 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" V 4500 7100 50  0001 C CNN "Supplier 1"
+F 6 " 855-M20-9980246 " V 4500 7100 50  0001 C CNN "Supplier 1 nr"
+	1    4500 7100
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:VCC #PWR017
+U 1 1 5FBEA8F9
+P 4600 6100
+F 0 "#PWR017" H 4600 5950 50  0001 C CNN
+F 1 "VCC" H 4600 6250 50  0001 C CNN
+F 2 "" H 4600 6100 50  0001 C CNN
+F 3 "" H 4600 6100 50  0001 C CNN
+	1    4600 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR013
+U 1 1 5FBEA10F
+P 4500 6100
+F 0 "#PWR013" H 4500 5950 50  0001 C CNN
+F 1 "VCC" H 4550 6250 50  0000 C CNN
+F 2 "" H 4500 6100 50  0001 C CNN
+F 3 "" H 4500 6100 50  0001 C CNN
+	1    4500 6100
+	1    0    0    -1  
+$EndComp
+Text Notes 4400 6500 2    59   ~ 0
+PWR\nTO\nHAT\n
+$Comp
+L Matrioszka:GND #PWR018
+U 1 1 5FCB3489
+P 4600 6600
+F 0 "#PWR018" H 4600 6350 50  0001 C CNN
+F 1 "GND" H 4600 6450 50  0001 C CNN
+F 2 "" H 4600 6600 50  0001 C CNN
+F 3 "" H 4600 6600 50  0001 C CNN
+	1    4600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR014
+U 1 1 5FCB2C7F
+P 4500 6600
+F 0 "#PWR014" H 4500 6350 50  0001 C CNN
+F 1 "GND" H 4500 6450 50  0001 C CNN
+F 2 "" H 4500 6600 50  0001 C CNN
+F 3 "" H 4500 6600 50  0001 C CNN
+	1    4500 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J7
+U 1 1 5FC83A5A
+P 4500 6300
+F 0 "J7" V 4750 6100 50  0000 C CNN
+F 1 "M20-9980246" H 4550 6100 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 4500 6300 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/181/M20-998-1220570.pdf" H 4500 6300 50  0001 C CNN
+F 4 "M20-9980246" V 4500 6300 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" V 4500 6300 50  0001 C CNN "Supplier 1"
+F 6 " 855-M20-9980246 " V 4500 6300 50  0001 C CNN "Supplier 1 nr"
+	1    4500 6300
+	0    -1   1    0   
+$EndComp
+Text Label 9050 4850 2    51   ~ 0
+GPIO_SDA
+Text Label 9050 4950 2    51   ~ 0
+GPIO_SCL
+$Comp
+L Matrioszka:GND #PWR015
+U 1 1 5FA31912
+P 4500 6900
+F 0 "#PWR015" H 4500 6650 50  0001 C CNN
+F 1 "GND" H 4500 6750 50  0001 C CNN
+F 2 "" H 4500 6900 50  0001 C CNN
+F 3 "" H 4500 6900 50  0001 C CNN
+	1    4500 6900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Matrioszka:GND #PWR019
+U 1 1 5FA31DC0
+P 4600 6900
+F 0 "#PWR019" H 4600 6650 50  0001 C CNN
+F 1 "GND" H 4600 6750 50  0001 C CNN
+F 2 "" H 4600 6900 50  0001 C CNN
+F 3 "" H 4600 6900 50  0001 C CNN
+	1    4600 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 7000 3200 7000
+Wire Wire Line
+	7000 4900 7150 4900
+Wire Wire Line
+	7000 4800 7150 4800
+Wire Wire Line
+	7000 4700 7150 4700
+Wire Wire Line
+	7000 4600 7150 4600
+Wire Wire Line
+	7000 4500 7150 4500
+Wire Wire Line
+	7000 4400 7150 4400
+Wire Wire Line
+	7000 4300 7150 4300
+Text Label 7150 4300 0    50   ~ 0
+GPIO_PC15
+Text Label 7150 4400 0    50   ~ 0
+GPIO_PC14
+Text Label 7150 4500 0    50   ~ 0
+GPIO_PC13
+Text Label 7150 4600 0    50   ~ 0
+GPIO_PB9
+Text Label 7150 4700 0    50   ~ 0
+GPIO_PB7
+Text Label 7150 4800 0    50   ~ 0
+GPIO_PB6
+Text Label 7150 4900 0    50   ~ 0
+GPIO_PB5
+Wire Wire Line
+	7000 5000 7150 5000
+Text Label 7150 5000 0    50   ~ 0
+GPIO_PD2
+Text Label 9550 5950 0    50   ~ 0
+GPIO_PD2
+Wire Wire Line
+	9050 2000 9050 2100
+Wire Wire Line
+	9550 2000 9550 2100
+Wire Wire Line
+	10050 2000 10050 2100
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FB30E99
+P 9050 1400
+AR Path="/5F91A24D/5FB30E99" Ref="#PWR?"  Part="1" 
+AR Path="/5FB30E99" Ref="#PWR021"  Part="1" 
+F 0 "#PWR021" H 9050 1250 50  0001 C CNN
+F 1 "+3.3V" V 9050 1550 50  0000 L CNN
+F 2 "" H 9050 1400 50  0001 C CNN
+F 3 "" H 9050 1400 50  0001 C CNN
+	1    9050 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FB3279D
+P 9550 1400
+AR Path="/5F91A24D/5FB3279D" Ref="#PWR?"  Part="1" 
+AR Path="/5FB3279D" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 9550 1250 50  0001 C CNN
+F 1 "+3.3V" V 9550 1550 50  0000 L CNN
+F 2 "" H 9550 1400 50  0001 C CNN
+F 3 "" H 9550 1400 50  0001 C CNN
+	1    9550 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FB32B6A
+P 10050 1400
+AR Path="/5F91A24D/5FB32B6A" Ref="#PWR?"  Part="1" 
+AR Path="/5FB32B6A" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 10050 1250 50  0001 C CNN
+F 1 "+3.3V" V 10050 1550 50  0000 L CNN
+F 2 "" H 10050 1400 50  0001 C CNN
+F 3 "" H 10050 1400 50  0001 C CNN
+	1    10050 1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5550 4550 5550
+Text Label 4600 5550 0    50   ~ 0
+CAN_NEN
+Text Label 9050 2100 3    50   ~ 0
+CAN_NEN
+$Comp
+L power:+5V #PWR?
+U 1 1 5FBB2E64
+P 9550 4050
+AR Path="/5F91A24D/5FBB2E64" Ref="#PWR?"  Part="1" 
+AR Path="/5FBB2E64" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 9550 3900 50  0001 C CNN
+F 1 "+5V" V 9550 4200 50  0000 L CNN
+F 2 "" H 9550 4050 50  0001 C CNN
+F 3 "" H 9550 4050 50  0001 C CNN
+	1    9550 4050
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:+3.3VA #PWR031
+U 1 1 5FD4350A
+P 9550 3850
+F 0 "#PWR031" H 9550 3700 50  0001 C CNN
+F 1 "+3.3VA" V 9550 4150 50  0000 C CNN
+F 2 "" H 9550 3850 50  0001 C CNN
+F 3 "" H 9550 3850 50  0001 C CNN
+	1    9550 3850
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FBB2944
+P 9550 3650
+AR Path="/5F91A24D/5FBB2944" Ref="#PWR?"  Part="1" 
+AR Path="/5FBB2944" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 9550 3500 50  0001 C CNN
+F 1 "+3.3V" V 9550 3800 50  0000 L CNN
+F 2 "" H 9550 3650 50  0001 C CNN
+F 3 "" H 9550 3650 50  0001 C CNN
+	1    9550 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FD4545C
+P 9550 3750
+AR Path="/5F91A24D/5FD4545C" Ref="#PWR?"  Part="1" 
+AR Path="/5FD4545C" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 9550 3500 50  0001 C CNN
+F 1 "GND" H 9550 3600 50  0001 C CNN
+F 2 "" H 9550 3750 50  0001 C CNN
+F 3 "" H 9550 3750 50  0001 C CNN
+	1    9550 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FD4492C
+P 9550 3950
+AR Path="/5F91A24D/5FD4492C" Ref="#PWR?"  Part="1" 
+AR Path="/5FD4492C" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 9550 3700 50  0001 C CNN
+F 1 "GND" H 9550 3800 50  0001 C CNN
+F 2 "" H 9550 3950 50  0001 C CNN
+F 3 "" H 9550 3950 50  0001 C CNN
+	1    9550 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FD44CA6
+P 9550 3550
+AR Path="/5F91A24D/5FD44CA6" Ref="#PWR?"  Part="1" 
+AR Path="/5FD44CA6" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 9550 3300 50  0001 C CNN
+F 1 "GND" H 9550 3400 50  0001 C CNN
+F 2 "" H 9550 3550 50  0001 C CNN
+F 3 "" H 9550 3550 50  0001 C CNN
+	1    9550 3550
+	0    -1   -1   0   
+$EndComp
+Text Label 9550 3150 0    50   ~ 0
+CAN_NEN
+$Comp
+L Matrioszka:GND #PWR?
+U 1 1 5FD45668
+P 9550 3450
+AR Path="/5F91A24D/5FD45668" Ref="#PWR?"  Part="1" 
+AR Path="/5FD45668" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 9550 3200 50  0001 C CNN
+F 1 "GND" H 9550 3300 50  0001 C CNN
+F 2 "" H 9550 3450 50  0001 C CNN
+F 3 "" H 9550 3450 50  0001 C CNN
+	1    9550 3450
+	0    -1   -1   0   
+$EndComp
+Text Notes 10200 3350 2    39   ~ 0
+USER\nLED\nPINS
+Text Label 9550 3350 0    50   ~ 0
+GPIO_PB2
+Text Label 9550 3250 0    50   ~ 0
+GPIO_PB10
+Wire Wire Line
+	3450 5150 3700 5150
+Wire Wire Line
+	3450 6200 3700 6200
+Wire Wire Line
+	3700 6200 3700 5150
+Connection ~ 3700 5150
+Wire Wire Line
+	3700 5150 4000 5150
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 5FDD3816
+P 9250 5650
+AR Path="/5F91A24D/5FDD3816" Ref="J?"  Part="1" 
+AR Path="/5FDD3816" Ref="J9"  Part="1" 
+F 0 "J9" H 9300 6650 50  0000 C CNN
+F 1 "M20-9982046" H 9300 4550 50  0001 C CNN
+F 2 "Matrioszka:PinHeader_2x20_P2.54mm_Vertical" H 9250 5650 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/181/M20-998-1220570.pdf" H 9250 5650 50  0001 C CNN
+F 4 "M20-9982046" H 9250 5650 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 9250 5650 50  0001 C CNN "Supplier 1"
+F 6 "855-M20-9982046 " H 9250 5650 50  0001 C CNN "Supplier 1 nr"
+	1    9250 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J10
+U 1 1 5FB3CCB1
+P 9250 3550
+F 0 "J10" H 9300 4050 50  0000 C CNN
+F 1 "M20-9981046 " H 9300 2950 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 9250 3550 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/181/M20-998-1220570.pdf" H 9250 3550 50  0001 C CNN
+F 4 "M20-9981046 " H 9250 3550 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 9250 3550 50  0001 C CNN "Supplier 1"
+F 6 "855-M20-9981046 " H 9250 3550 50  0001 C CNN "Supplier 1 nr"
+	1    9250 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Resistors:10k0603 R?
+U 1 1 5FE2A258
+P 9550 1550
+AR Path="/5FCEE140/5FE2A258" Ref="R?"  Part="1" 
+AR Path="/5FE2A258" Ref="R15"  Part="1" 
+F 0 "R15" V 9700 1500 50  0000 C CNN
+F 1 "1k" V 9800 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 8930 1550 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/315/Panasonic_Resistors_Thick_Film_Anti_Sulf_Anti_Surg-1825099.pdf" H 9550 1550 50  0001 C CNN
+F 4 "CRCW06031K00FKEAC" H 9550 1550 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 9550 1550 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06031K00FKEAC" H 10250 1850 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 9550 1550 50  0001 C CNN "Generic"
+	1    9550 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Resistors:10k0603 R?
+U 1 1 5FE2DDA8
+P 10050 1550
+AR Path="/5FCEE140/5FE2DDA8" Ref="R?"  Part="1" 
+AR Path="/5FE2DDA8" Ref="R16"  Part="1" 
+F 0 "R16" V 10200 1500 50  0000 C CNN
+F 1 "1k" V 10300 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9430 1550 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/315/Panasonic_Resistors_Thick_Film_Anti_Sulf_Anti_Surg-1825099.pdf" H 10050 1550 50  0001 C CNN
+F 4 "CRCW06031K00FKEAC" H 10050 1550 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 10050 1550 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06031K00FKEAC" H 10750 1850 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 10050 1550 50  0001 C CNN "Generic"
+	1    10050 1550
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 5000 1100 2000 6250
+U 5F91A24D
+F0 "MCU" 118
+F1 "MCU.sch" 118
+F2 "USB_VBUS" I L 5000 1200 50 
+F3 "USB_CC1" I L 5000 1400 50 
+F4 "USB_CC2" I L 5000 1500 50 
+F5 "USB_D-" I L 5000 1700 50 
+F6 "USB_D+" I L 5000 1900 50 
+F7 "USB_SBU1" I L 5000 2300 50 
+F8 "USB_SBU2" I L 5000 2400 50 
+F9 "SWCLK" I L 5000 2950 50 
+F10 "SWDIO" I L 5000 3150 50 
+F11 "nRST" I L 5000 3250 50 
+F12 "BOOT0" I L 5000 3350 50 
+F13 "UART_RX" I L 5000 4100 50 
+F14 "UART_TX" I L 5000 4200 50 
+F15 "UART_V+" I L 5000 4000 50 
+F16 "SDA" B R 7000 1300 50 
+F17 "SCL" O R 7000 1400 50 
+F18 "AIN0" I R 7000 3100 51 
+F19 "AIN2" I R 7000 3300 51 
+F20 "AIN3" I R 7000 3400 51 
+F21 "AIN4" I R 7000 3500 51 
+F22 "AIN5" I R 7000 3600 51 
+F23 "AOUT0" O R 7000 3800 51 
+F24 "AOUT1" O R 7000 3900 51 
+F25 "AIN1" I R 7000 3200 51 
+F26 "AOUT2" O R 7000 4000 51 
+F27 "CAN_TX" O L 5000 5350 51 
+F28 "CAN_RX" I L 5000 5450 51 
+F29 "GPIO_PC15" I R 7000 4300 50 
+F30 "GPIO_PC14" I R 7000 4400 50 
+F31 "GPIO_PC13" I R 7000 4500 50 
+F32 "GPIO_PB9" I R 7000 4600 50 
+F33 "GPIO_PB7" I R 7000 4700 50 
+F34 "GPIO_PB6" I R 7000 4800 50 
+F35 "GPIO_PB5" I R 7000 4900 50 
+F36 "GPIO_PD2" I R 7000 5000 50 
+F37 "GPIO_PC12" I R 7000 5100 50 
+F38 "GPIO_PC11" I R 7000 5200 50 
+F39 "GPIO_PC10" I R 7000 5300 50 
+F40 "GPIO_PA15" I R 7000 5400 50 
+F41 "GPIO_PC8" I R 7000 5500 50 
+F42 "GPIO_PC7" I R 7000 5600 50 
+F43 "GPIO_PC6" I R 7000 5700 50 
+F44 "GPIO_PB15" I R 7000 5800 50 
+F45 "GPIO_PB14" I R 7000 5900 50 
+F46 "GPIO_PB10" I R 7000 6100 50 
+F47 "GPIO_PB2" I R 7000 6200 50 
+F48 "GPIO_PC0" I R 7000 7100 50 
+F49 "GPIO_PC1" I R 7000 7000 50 
+F50 "GPIO_PC2" I R 7000 6900 50 
+F51 "GPIO_PA0" I R 7000 6800 50 
+F52 "GPIO_PA2" I R 7000 6700 50 
+F53 "GPIO_PA3" I R 7000 6600 50 
+F54 "GPIO_PC4" I R 7000 6500 50 
+F55 "GPIO_PC5" I R 7000 6400 50 
+F56 "GPIO_PB1" I R 7000 6300 50 
+F57 "CAN_NEN" O L 5000 5550 51 
+F58 "SWV+" I L 5000 2850 50 
+$EndSheet
+Text Notes 4500 2850 0    50   ~ 0
++3.3V/+5V
+Text Notes 4500 4000 0    50   ~ 0
++3.3V/+5V
+$EndSCHEMATC

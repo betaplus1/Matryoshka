@@ -1,0 +1,3 @@
+[submodule "betaplus1-kicad-libs"]
+	path = betaplus1-kicad-libs
+	url = https://github.com/betaplus1/betaplus1-kicad-libs.git

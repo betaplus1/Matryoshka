@@ -1,0 +1,1376 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Matrioszka_Capacitors:10uF0805 C13
+U 1 1 5F98E5AB
+P 8700 4100
+F 0 "C13" H 8550 4450 50  0000 L CNN
+F 1 "10uF" H 8550 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8708 3780 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/585/MLCC-1837944.pdf" H 8700 4100 50  0001 C CNN
+F 4 "CL21B106KAYQNNE" H 9010 4320 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 8430 4050 50  0001 C CNN "Supplier 1"
+F 6 "187-CL21B106KAYQNNE " H 9010 4320 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 8430 4050 50  0001 C CNN "Generic"
+F 8 "X7R" H 8430 4050 50  0001 C CNN "Dielectric"
+	1    8700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Capacitors:100nF C15
+U 1 1 5F98EF74
+P 8900 4100
+F 0 "C15" H 8800 4450 50  0000 L CNN
+F 1 "100nF" H 8800 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8908 3780 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" H 8900 4100 50  0001 C CNN
+F 4 "06033C104KAT4A" H 9210 4320 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 8630 4050 50  0001 C CNN "Supplier 1"
+F 6 "581-06033C104KAT4A" H 9210 4320 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 8630 4050 50  0001 C CNN "Generic"
+F 8 "X7R" H 8630 4050 50  0001 C CNN "Dielectric"
+	1    8900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR070
+U 1 1 5F991A66
+P 8700 4300
+F 0 "#PWR070" H 8700 4050 50  0001 C CNN
+F 1 "GND" H 8700 4150 50  0001 C CNN
+F 2 "" H 8700 4300 50  0001 C CNN
+F 3 "" H 8700 4300 50  0001 C CNN
+	1    8700 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR072
+U 1 1 5F992326
+P 8900 4300
+F 0 "#PWR072" H 8900 4050 50  0001 C CNN
+F 1 "GND" H 8900 4150 50  0001 C CNN
+F 2 "" H 8900 4300 50  0001 C CNN
+F 3 "" H 8900 4300 50  0001 C CNN
+	1    8900 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR074
+U 1 1 5F992719
+P 9300 4300
+F 0 "#PWR074" H 9300 4050 50  0001 C CNN
+F 1 "GND" H 9300 4150 50  0001 C CNN
+F 2 "" H 9300 4300 50  0001 C CNN
+F 3 "" H 9300 4300 50  0001 C CNN
+	1    9300 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4050 8700 4000
+Wire Wire Line
+	8700 4000 8900 4000
+Wire Wire Line
+	8900 4000 8900 4050
+Connection ~ 8900 4000
+Wire Wire Line
+	8900 4000 9000 4000
+Wire Wire Line
+	8700 4300 8700 4200
+Wire Wire Line
+	8900 4200 8900 4300
+Connection ~ 8700 4000
+$Comp
+L Matrioszka_Capacitors:100nF C17
+U 1 1 5F99C29A
+P 9700 4100
+F 0 "C17" H 9700 4450 50  0000 L CNN
+F 1 "100nF" H 9700 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9708 3780 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" H 9700 4100 50  0001 C CNN
+F 4 "06033C104KAT4A" H 10010 4320 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 9430 4050 50  0001 C CNN "Supplier 1"
+F 6 "581-06033C104KAT4A" H 10010 4320 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 9430 4050 50  0001 C CNN "Generic"
+F 8 "X7R" H 9430 4050 50  0001 C CNN "Dielectric"
+	1    9700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Capacitors:10uF0805 C19
+U 1 1 5F99CEC0
+P 9900 4100
+F 0 "C19" H 10000 4450 50  0000 L CNN
+F 1 "10uF" H 10000 4350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9908 3780 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/585/MLCC-1837944.pdf" H 9900 4100 50  0001 C CNN
+F 4 "CL21B106KAYQNNE" H 10210 4320 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 9630 4050 50  0001 C CNN "Supplier 1"
+F 6 "187-CL21B106KAYQNNE " H 10210 4320 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 9630 4050 50  0001 C CNN "Generic"
+F 8 "X7R" H 9630 4050 50  0001 C CNN "Dielectric"
+	1    9900 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 4000 9700 4000
+Wire Wire Line
+	9700 4000 9700 4050
+Wire Wire Line
+	9700 4000 9900 4000
+Wire Wire Line
+	9900 4000 9900 4050
+Connection ~ 9700 4000
+$Comp
+L Matrioszka:GND #PWR076
+U 1 1 5F99F0CA
+P 9700 4300
+F 0 "#PWR076" H 9700 4050 50  0001 C CNN
+F 1 "GND" H 9700 4150 50  0001 C CNN
+F 2 "" H 9700 4300 50  0001 C CNN
+F 3 "" H 9700 4300 50  0001 C CNN
+	1    9700 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 4200 9700 4300
+$Comp
+L Matrioszka:GND #PWR078
+U 1 1 5F9A02A5
+P 9900 4300
+F 0 "#PWR078" H 9900 4050 50  0001 C CNN
+F 1 "GND" H 9900 4150 50  0001 C CNN
+F 2 "" H 9900 4300 50  0001 C CNN
+F 3 "" H 9900 4300 50  0001 C CNN
+	1    9900 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 4200 9900 4300
+Connection ~ 9900 4000
+$Comp
+L power:+3.3V #PWR082
+U 1 1 5F9A285D
+P 10600 3900
+F 0 "#PWR082" H 10600 3750 50  0001 C CNN
+F 1 "+3.3V" H 10600 4050 50  0000 C CNN
+F 2 "" H 10600 3900 50  0001 C CNN
+F 3 "" H 10600 3900 50  0001 C CNN
+	1    10600 3900
+	1    0    0    -1  
+$EndComp
+Text Notes 10500 3950 2    50   ~ 0
+1A max
+$Comp
+L Matrioszka_Capacitors:100uF_35V_El C1
+U 1 1 5FA29E60
+P 1850 3750
+F 0 "C1" H 1400 3300 50  0000 L CNN
+F 1 "100uF" H 1400 3200 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 1888 3600 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/445/865080545012-1726521.pdf" H 1850 3700 50  0001 C CNN
+F 4 "865080545012" H 2100 3900 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 1850 3750 50  0001 C CNN "Supplier 1"
+F 6 " 710-865080545012 " H 1850 3750 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 1850 3750 50  0001 C CNN "Generic"
+F 8 "Electrolytic" H 1850 3750 50  0001 C CNN "Dielectric"
+F 9 "35V" H 1400 3100 50  0000 L CNN "Voltage Rating"
+	1    1850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Capacitors:100nF C3
+U 1 1 5FA2FED5
+P 2200 3850
+F 0 "C3" H 1950 3500 50  0000 L CNN
+F 1 "100nF" H 1950 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 2208 3530 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" H 2200 3850 50  0001 C CNN
+F 4 "06033C104KAT4A" H 2510 4070 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 1930 3800 50  0001 C CNN "Supplier 1"
+F 6 "581-06033C104KAT4A" H 2510 4070 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 1930 3800 50  0001 C CNN "Generic"
+F 8 "X7R" H 1930 3800 50  0001 C CNN "Dielectric"
+F 9 "25V" H 1950 3300 50  0000 L CNN "Voltage Rating"
+	1    2200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Capacitors:10uF0805 C2
+U 1 1 5FA34566
+P 2050 3850
+F 0 "C2" H 1700 3500 50  0000 L CNN
+F 1 "10uF" H 1700 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2058 3530 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/585/MLCC-1837944.pdf" H 2050 3850 50  0001 C CNN
+F 4 "CL21B106KAYQNNE" H 2360 4070 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 1780 3800 50  0001 C CNN "Supplier 1"
+F 6 "187-CL21B106KAYQNNE " H 2360 4070 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 1780 3800 50  0001 C CNN "Generic"
+F 8 "X7R" H 1780 3800 50  0001 C CNN "Dielectric"
+F 9 "25V" H 1700 3300 50  0000 L CNN "Voltage Rating"
+	1    2050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4050 2050 3950
+Wire Wire Line
+	2200 4050 2200 3950
+Wire Wire Line
+	1850 3750 1850 3650
+Connection ~ 1850 3650
+Wire Wire Line
+	1850 3650 2050 3650
+Wire Wire Line
+	2050 3800 2050 3650
+Connection ~ 2050 3650
+Wire Wire Line
+	2050 3650 2200 3650
+Wire Wire Line
+	2200 3800 2200 3650
+Connection ~ 6000 4000
+Wire Wire Line
+	6000 4050 6000 4000
+Wire Wire Line
+	5650 4000 5800 4000
+Wire Wire Line
+	6000 4350 6000 4400
+Wire Wire Line
+	6800 4550 7000 4550
+Wire Wire Line
+	7000 4550 7000 4400
+Text Notes 6150 3950 2    50   ~ 0
+2A max
+Wire Wire Line
+	4850 3600 4900 3600
+Connection ~ 4850 3600
+Wire Wire Line
+	4850 3550 4850 3600
+Wire Wire Line
+	4800 3600 4850 3600
+$Comp
+L Matrioszka:GND #PWR059
+U 1 1 5F97C307
+P 4850 3400
+F 0 "#PWR059" H 4850 3150 50  0001 C CNN
+F 1 "GND" H 4850 3250 50  0001 C CNN
+F 2 "" H 4850 3400 50  0001 C CNN
+F 3 "" H 4850 3400 50  0001 C CNN
+	1    4850 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Matrioszka_Capacitors:100nF C7
+U 1 1 5F97B18D
+P 4850 3450
+F 0 "C7" H 4700 3750 50  0000 L CNN
+F 1 "100nF" H 4700 3650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4858 3130 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" H 4850 3450 50  0001 C CNN
+F 4 "06033C104KAT4A" H 5160 3670 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 4580 3400 50  0001 C CNN "Supplier 1"
+F 6 "581-06033C104KAT4A" H 5160 3670 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 4580 3400 50  0001 C CNN "Generic"
+F 8 "X7R" H 4580 3400 50  0001 C CNN "Dielectric"
+	1    4850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:1N4148 D6
+U 1 1 5F9758C0
+P 5050 3600
+F 0 "D6" H 5050 3850 50  0000 C CNN
+F 1 "1N4148" H 5150 3750 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-523" H 5050 3425 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/258/1N4148X(SOD-523)-V1-1625641.pdf" H 5050 3600 50  0001 C CNN
+F 4 "1N4148X-TP" H 5050 3600 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 5050 3600 50  0001 C CNN "Supplier 1"
+F 6 "833-1N4148X-TP" H 5050 3600 50  0001 C CNN "Supplier 1 nr"
+	1    5050 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3900 3200 3950
+$Comp
+L Matrioszka:GND #PWR055
+U 1 1 5F972CC9
+P 3200 3950
+F 0 "#PWR055" H 3200 3700 50  0001 C CNN
+F 1 "GND" H 3200 3800 50  0001 C CNN
+F 2 "" H 3200 3950 50  0001 C CNN
+F 3 "" H 3200 3950 50  0001 C CNN
+	1    3200 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3650 3450 3650
+Wire Wire Line
+	3200 3750 3200 3650
+$Comp
+L Matrioszka_Capacitors:10uF0805 C4
+U 1 1 5F972093
+P 3200 3800
+F 0 "C4" H 3100 3500 50  0000 L CNN
+F 1 "10uF" H 3100 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3208 3480 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/585/MLCC-1837944.pdf" H 3200 3800 50  0001 C CNN
+F 4 "CL21B106KAYQNNE" H 3510 4020 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 2930 3750 50  0001 C CNN "Supplier 1"
+F 6 "187-CL21B106KAYQNNE " H 3510 4020 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 2930 3750 50  0001 C CNN "Generic"
+F 8 "X7R" H 2930 3750 50  0001 C CNN "Dielectric"
+F 9 "25V" H 3100 3300 50  0000 L CNN "Voltage Rating"
+	1    3200 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3450 3650
+Wire Wire Line
+	3450 3950 3450 3900
+Connection ~ 3700 3650
+Wire Wire Line
+	3450 3650 3700 3650
+Wire Wire Line
+	3450 3750 3450 3650
+$Comp
+L Matrioszka:GND #PWR056
+U 1 1 5FD2EF99
+P 3450 3950
+F 0 "#PWR056" H 3450 3700 50  0001 C CNN
+F 1 "GND" H 3450 3800 50  0001 C CNN
+F 2 "" H 3450 3950 50  0001 C CNN
+F 3 "" H 3450 3950 50  0001 C CNN
+	1    3450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Capacitors:10uF0805 C5
+U 1 1 5FD2EA53
+P 3450 3800
+F 0 "C5" H 3400 3500 50  0000 L CNN
+F 1 "10uF" H 3400 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3458 3480 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/585/MLCC-1837944.pdf" H 3450 3800 50  0001 C CNN
+F 4 "CL21B106KAYQNNE" H 3760 4020 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 3180 3750 50  0001 C CNN "Supplier 1"
+F 6 "187-CL21B106KAYQNNE " H 3760 4020 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 3180 3750 50  0001 C CNN "Generic"
+F 8 "X7R" H 3180 3750 50  0001 C CNN "Dielectric"
+F 9 "25V" H 3400 3300 50  0000 L CNN "Voltage Rating"
+	1    3450 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR062
+U 1 1 5FD2E5EC
+P 5300 4400
+F 0 "#PWR062" H 5300 4150 50  0001 C CNN
+F 1 "GND" H 5300 4250 50  0001 C CNN
+F 2 "" H 5300 4400 50  0001 C CNN
+F 3 "" H 5300 4400 50  0001 C CNN
+	1    5300 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4400 5300 4250
+Connection ~ 5650 4000
+Wire Wire Line
+	5300 4000 5650 4000
+Wire Wire Line
+	5300 4100 5300 4000
+$Comp
+L Matrioszka_Capacitors:100nF C10
+U 1 1 5FD2D27D
+P 5300 4150
+F 0 "C10" H 5350 4150 50  0000 L CNN
+F 1 "100nF" H 5350 4050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 5308 3830 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" H 5300 4150 50  0001 C CNN
+F 4 "06033C104KAT4A" H 5610 4370 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 5030 4100 50  0001 C CNN "Supplier 1"
+F 6 "581-06033C104KAT4A" H 5610 4370 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 5030 4100 50  0001 C CNN "Generic"
+F 8 "X7R" H 5030 4100 50  0001 C CNN "Dielectric"
+	1    5300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR064
+U 1 1 5FD2B39C
+P 6000 4400
+F 0 "#PWR064" H 6000 4150 50  0001 C CNN
+F 1 "GND" H 6000 4250 50  0001 C CNN
+F 2 "" H 6000 4400 50  0001 C CNN
+F 3 "" H 6000 4400 50  0001 C CNN
+	1    6000 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR063
+U 1 1 5FD2AF7F
+P 5650 4400
+F 0 "#PWR063" H 5650 4150 50  0001 C CNN
+F 1 "GND" H 5650 4250 50  0001 C CNN
+F 2 "" H 5650 4400 50  0001 C CNN
+F 3 "" H 5650 4400 50  0001 C CNN
+	1    5650 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4000 5650 4100
+$Comp
+L Matrioszka_Capacitors:100nF C9
+U 1 1 5FD28AF5
+P 7000 4300
+F 0 "C9" H 7050 4300 50  0000 L CNN
+F 1 "15pF" H 7050 4200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7008 3980 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/40/C0GNP0_Dielectric-951274.pdf" H 7000 4300 50  0001 C CNN
+F 4 "C0603C150K4GACTU" H 7310 4520 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 6730 4250 50  0001 C CNN "Supplier 1"
+F 6 " 80-C0603C150K4G" H 7310 4520 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 6730 4250 50  0001 C CNN "Generic"
+F 8 "C0G" H 6730 4250 50  0001 C CNN "Dielectric"
+	1    7000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Capacitors:10uF0805 C11
+U 1 1 5FD281A3
+P 5650 4150
+F 0 "C11" H 5665 4200 50  0000 L CNN
+F 1 "10uF" H 5665 4050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 5658 3830 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/585/MLCC-1837944.pdf" H 5650 4150 50  0001 C CNN
+F 4 "CL21B106KAYQNNE" H 5960 4370 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 5380 4100 50  0001 C CNN "Supplier 1"
+F 6 "187-CL21B106KAYQNNE " H 5960 4370 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 5380 4100 50  0001 C CNN "Generic"
+F 8 "X7R" H 5380 4100 50  0001 C CNN "Dielectric"
+	1    5650 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Capacitors:100uF1206Tant C12
+U 1 1 5FD26933
+P 6000 4200
+F 0 "C12" H 6100 4300 50  0000 L CNN
+F 1 "100uF" H 6100 4150 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 6008 3880 50  0001 C CNN
+F 3 "https://content.kemet.com/datasheets/KEM_T2076_T52X-530.pdf" H 6000 4200 50  0001 C CNN
+F 4 "T520A107M006ATE045 " H 6310 4420 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 5730 4150 50  0001 C CNN "Supplier 1"
+F 6 "80-T520A107M06ATE045 " H 6310 4420 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 5730 4150 50  0001 C CNN "Generic"
+F 8 "Tantalum" H 5730 4150 50  0001 C CNN "Dielectric"
+	1    6000 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 4000 5000 4000
+Wire Wire Line
+	3700 3650 4000 3650
+Wire Wire Line
+	3700 3900 3700 3950
+$Comp
+L Matrioszka:GND #PWR057
+U 1 1 5FD2133A
+P 3700 3950
+F 0 "#PWR057" H 3700 3700 50  0001 C CNN
+F 1 "GND" H 3700 3800 50  0001 C CNN
+F 2 "" H 3700 3950 50  0001 C CNN
+F 3 "" H 3700 3950 50  0001 C CNN
+	1    3700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR058
+U 1 1 5FD20EDE
+P 4000 4150
+F 0 "#PWR058" H 4000 3900 50  0001 C CNN
+F 1 "GND" H 4000 4000 50  0001 C CNN
+F 2 "" H 4000 4150 50  0001 C CNN
+F 3 "" H 4000 4150 50  0001 C CNN
+	1    4000 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3650 3700 3750
+$Comp
+L Matrioszka_Capacitors:100nF C6
+U 1 1 5FD1EC5C
+P 3700 3800
+F 0 "C6" H 3650 3500 50  0000 L CNN
+F 1 "100nF" H 3650 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3708 3480 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" H 3700 3800 50  0001 C CNN
+F 4 "06033C104KAT4A" H 4010 4020 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 3430 3750 50  0001 C CNN "Supplier 1"
+F 6 "581-06033C104KAT4A" H 4010 4020 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 3430 3750 50  0001 C CNN "Generic"
+F 8 "X7R" H 3430 3750 50  0001 C CNN "Dielectric"
+F 9 "25V" H 3650 3300 50  0000 L CNN "Voltage Rating"
+	1    3700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR060
+U 1 1 5FD1CDEE
+P 6800 4900
+F 0 "#PWR060" H 6800 4650 50  0001 C CNN
+F 1 "GND" H 6800 4750 50  0001 C CNN
+F 2 "" H 6800 4900 50  0001 C CNN
+F 3 "" H 6800 4900 50  0001 C CNN
+	1    6800 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 6800 4550
+Wire Wire Line
+	6800 4600 6800 4550
+Wire Wire Line
+	6800 4550 6800 4500
+$Comp
+L Matrioszka_Resistors:5.1k0603 R22
+U 1 1 5FD1A82F
+P 6800 4350
+F 0 "R22" V 6600 4300 50  0000 C CNN
+F 1 "80.6k" V 6700 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6180 4350 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/427/dcrcwe3-1762152.pdf" H 6800 4350 50  0001 C CNN
+F 4 "CRCW060380K6FKEA" H 6800 4350 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 6800 4350 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW0603-80.6K-E3 " H 7500 4650 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 6800 4350 50  0001 C CNN "Generic"
+	1    6800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Resistors:5.1k0603 R23
+U 1 1 5FD19B51
+P 6800 4750
+F 0 "R23" V 6600 4700 50  0000 C CNN
+F 1 "15k" V 6700 4750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 6180 4750 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" H 6800 4750 50  0001 C CNN
+F 4 "RR0816P-153-D " H 6800 4750 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 6800 4750 50  0001 C CNN "Supplier 1"
+F 6 "754-RR0816P-153D" H 7500 5050 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 6800 4750 50  0001 C CNN "Generic"
+	1    6800 4750
+	1    0    0    -1  
+$EndComp
+Connection ~ 4900 4000
+$Comp
+L Matrioszka_Inductors:SRR6038-100Y L1
+U 1 1 5FD16F52
+P 5100 4000
+F 0 "L1" V 5200 4000 50  0000 L CNN
+F 1 "SRR6038-100Y" V 5200 3350 50  0000 L CNN
+F 2 "Matrioszka:L_Bourns_SRR6038" H 5100 4000 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/54/srr6038-1391586.pdf" H 5100 4000 50  0001 C CNN
+F 4 "SRR6038-100Y" H 5100 4000 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 5100 4000 50  0001 C CNN "Supplier 1"
+F 6 "652-SRR6038-100Y" H 5100 4000 50  0001 C CNN "Supplier 1 nr"
+	1    5100 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4900 4000 4900 3950
+Wire Wire Line
+	4800 4000 4900 4000
+Wire Wire Line
+	4800 3800 4900 3800
+$Comp
+L Matrioszka_Capacitors:100nF C8
+U 1 1 5FD0FD38
+P 4900 3850
+F 0 "C8" H 5000 3950 50  0000 L CNN
+F 1 "100nF" H 5150 3950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4908 3530 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" H 4900 3850 50  0001 C CNN
+F 4 "06033C104KAT4A" H 5210 4070 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 4630 3800 50  0001 C CNN "Supplier 1"
+F 6 "581-06033C104KAT4A" H 5210 4070 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 4630 3800 50  0001 C CNN "Generic"
+F 8 "X7R" H 4630 3800 50  0001 C CNN "Dielectric"
+	1    4900 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:LED_BLUE_ANGLE D5
+U 1 1 5F99E607
+P 2400 4100
+F 0 "D5" H 2300 3950 50  0000 L CNN
+F 1 "LED_BLUE_ANGLE" H 2400 4000 50  0001 C CNN
+F 2 "Matrioszka:WUERTH_155124" H 2400 4100 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/445/155124BS73200A-1714797.pdf" H 2400 4100 50  0001 C CNN
+F 4 "155124BS73200A " H 2400 4100 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 2400 4100 50  0001 C CNN "Supplier 1"
+F 6 "710-155124BS73200A " H 2400 4100 50  0001 C CNN "Supplier 1 nr"
+F 7 "Blue" H 2300 3850 50  0000 L CNN "Color"
+	1    2400 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka:LED_GREEN_ANGLE D11
+U 1 1 5F99F37A
+P 10150 4450
+F 0 "D11" H 10100 4300 50  0000 C CNN
+F 1 "LED_GREEN_ANGLE" H 10150 4350 50  0001 C CNN
+F 2 "Matrioszka:WUERTH_155124" H 10150 4450 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/445/155124BS73200A-1714797.pdf" H 10150 4450 50  0001 C CNN
+F 4 "155124VS73200 " H 10150 4450 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 10150 4450 50  0001 C CNN "Supplier 1"
+F 6 "710-155124VS73200" H 10150 4450 50  0001 C CNN "Supplier 1 nr"
+F 7 "Green" H 10150 4200 50  0000 C CNN "Color"
+	1    10150 4450
+	0    -1   -1   0   
+$EndComp
+Text Notes 2800 4200 1    50   ~ 0
+3.2V\n
+$Comp
+L Matrioszka_Resistors:10k0603 R21
+U 1 1 5F9AA515
+P 2400 3800
+F 0 "R21" V 2550 3750 50  0000 C CNN
+F 1 "10k" V 2650 3700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 1780 3800 50  0001 C CNN
+F 3 "" H 2400 3800 50  0001 C CNN
+F 4 "CRCW060310K0JNEBC" H 2400 3800 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 2400 3800 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW060310K0JNEBC" H 3100 4100 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 2400 3800 50  0001 C CNN "Generic"
+	1    2400 3800
+	1    0    0    -1  
+$EndComp
+Text Notes 10550 4550 1    50   ~ 0
+2V
+$Comp
+L Matrioszka:GND #PWR053
+U 1 1 5F9B3C35
+P 2400 4250
+F 0 "#PWR053" H 2400 4000 50  0001 C CNN
+F 1 "GND" H 2400 4100 50  0001 C CNN
+F 2 "" H 2400 4250 50  0001 C CNN
+F 3 "" H 2400 4250 50  0001 C CNN
+	1    2400 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 3650 2400 3650
+Connection ~ 2200 3650
+$Comp
+L Matrioszka:GND #PWR051
+U 1 1 5FA4F0F9
+P 2200 4050
+F 0 "#PWR051" H 2200 3800 50  0001 C CNN
+F 1 "GND" H 2200 3900 50  0001 C CNN
+F 2 "" H 2200 4050 50  0001 C CNN
+F 3 "" H 2200 4050 50  0001 C CNN
+	1    2200 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR050
+U 1 1 5FA4EA37
+P 2050 4050
+F 0 "#PWR050" H 2050 3800 50  0001 C CNN
+F 1 "GND" H 2050 3900 50  0001 C CNN
+F 2 "" H 2050 4050 50  0001 C CNN
+F 3 "" H 2050 4050 50  0001 C CNN
+	1    2050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR049
+U 1 1 5FA4E5E2
+P 1850 4050
+F 0 "#PWR049" H 1850 3800 50  0001 C CNN
+F 1 "GND" H 1850 3900 50  0001 C CNN
+F 2 "" H 1850 4050 50  0001 C CNN
+F 3 "" H 1850 4050 50  0001 C CNN
+	1    1850 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4000 6250 4000
+$Comp
+L Matrioszka:GND #PWR080
+U 1 1 5F9C71E4
+P 10150 4600
+F 0 "#PWR080" H 10150 4350 50  0001 C CNN
+F 1 "GND" H 10150 4450 50  0001 C CNN
+F 2 "" H 10150 4600 50  0001 C CNN
+F 3 "" H 10150 4600 50  0001 C CNN
+	1    10150 4600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2400 3650
+Text Notes 950  3150 0    98   ~ 0
+Power input decoupling\n& Fuse\n
+Text Notes 4100 3000 0    98   ~ 0
+5V DCDC
+$Comp
+L Regulator_Linear:MCP1826S U2
+U 1 1 5F9CBFD1
+P 9300 4000
+F 0 "U2" H 9150 4250 50  0000 C CNN
+F 1 "MCP1826S" H 9100 4150 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9200 4150 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf" H 9300 4250 50  0001 C CNN
+F 4 "MCP1826S-3302E/DB" H 9300 4000 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 9300 4000 50  0001 C CNN "Supplier 1"
+F 6 "579-MCP1826S-3302EDB " H 9300 4000 50  0001 C CNN "Supplier 1 nr"
+	1    9300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VD #PWR068
+U 1 1 5F9D2449
+P 8050 3700
+F 0 "#PWR068" H 8050 3550 50  0001 C CNN
+F 1 "+5VD" V 8050 3950 50  0000 C CNN
+F 2 "" H 8050 3700 50  0001 C CNN
+F 3 "" H 8050 3700 50  0001 C CNN
+	1    8050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VBUS #PWR069
+U 1 1 5F9D2D89
+P 8250 3700
+F 0 "#PWR069" H 8250 3550 50  0001 C CNN
+F 1 "VBUS" V 8250 3950 50  0000 C CNN
+F 2 "" H 8250 3700 50  0001 C CNN
+F 3 "" H 8250 3700 50  0001 C CNN
+	1    8250 3700
+	1    0    0    -1  
+$EndComp
+Text Notes 8950 3000 0    98   ~ 0
+3.3V LDO
+$Comp
+L Matrioszka:MP2344GJ-Z U1
+U 1 1 5FD0633D
+P 4400 3700
+F 0 "U1" H 4050 3950 50  0000 C CNN
+F 1 "MP2344GJ-Z" H 4450 3950 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6_HandSoldering" H 4400 4050 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/277/MP2344-1863530.pdf" H 4400 3700 50  0001 C CNN
+F 4 "MP2344GJ-Z" H 4200 4400 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 3800 4350 50  0001 C CNN "Supplier 1"
+F 6 "946-MP2344GJ-Z " H 4700 4200 50  0001 C CNN "Supplier 1 nr"
+	1    4400 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4200 4850 4200
+Text Notes 8300 4300 1    50   ~ 0
+USB
+Text Notes 8100 4300 1    50   ~ 0
+UART
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FB9C95D
+P 10700 4000
+AR Path="/5FB9C95D" Ref="TP?"  Part="1" 
+AR Path="/5FCEE140/5FB9C95D" Ref="TP3"  Part="1" 
+F 0 "TP3" V 10700 4250 50  0000 C CNN
+F 1 "~" H 10700 4200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10900 4000 50  0001 C CNN
+F 3 "~" H 10900 4000 50  0001 C CNN
+	1    10700 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FB9EF6A
+P 8450 5150
+AR Path="/5FB9EF6A" Ref="TP?"  Part="1" 
+AR Path="/5FCEE140/5FB9EF6A" Ref="TP2"  Part="1" 
+F 0 "TP2" V 8450 5400 50  0000 C CNN
+F 1 "~" H 8450 5350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 8650 5150 50  0001 C CNN
+F 3 "~" H 8650 5150 50  0001 C CNN
+	1    8450 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10600 3900 10600 4000
+Connection ~ 10600 4000
+Wire Wire Line
+	10600 4000 10700 4000
+Wire Wire Line
+	950  3750 1000 3750
+Text HLabel 950  3750 0    50   Input ~ 0
+VIN-
+Text HLabel 950  3650 0    50   Input ~ 0
+VIN+
+$Comp
+L Matrioszka:GND #PWR048
+U 1 1 5FA15171
+P 1000 3750
+F 0 "#PWR048" H 1000 3500 50  0001 C CNN
+F 1 "GND" H 1000 3600 50  0001 C CNN
+F 2 "" H 1000 3750 50  0001 C CNN
+F 3 "" H 1000 3750 50  0001 C CNN
+	1    1000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FB9B1B7
+P 6250 4000
+AR Path="/5FB9B1B7" Ref="TP?"  Part="1" 
+AR Path="/5FCEE140/5FB9B1B7" Ref="TP1"  Part="1" 
+F 0 "TP1" V 6250 4250 50  0000 C CNN
+F 1 "~" H 6250 4200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6450 4000 50  0001 C CNN
+F 3 "~" H 6450 4000 50  0001 C CNN
+	1    6250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Capacitors:10uF0805 C14
+U 1 1 5FD3809F
+P 8700 5250
+F 0 "C14" H 8550 5600 50  0000 L CNN
+F 1 "10uF" H 8550 5500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8708 4930 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/585/MLCC-1837944.pdf" H 8700 5250 50  0001 C CNN
+F 4 "CL21B106KAYQNNE" H 9010 5470 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 8430 5200 50  0001 C CNN "Supplier 1"
+F 6 "187-CL21B106KAYQNNE " H 9010 5470 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 8430 5200 50  0001 C CNN "Generic"
+F 8 "X7R" H 8430 5200 50  0001 C CNN "Dielectric"
+	1    8700 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Capacitors:100nF C16
+U 1 1 5FD380AA
+P 8900 5250
+F 0 "C16" H 8800 5600 50  0000 L CNN
+F 1 "100nF" H 8800 5500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8908 4930 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" H 8900 5250 50  0001 C CNN
+F 4 "06033C104KAT4A" H 9210 5470 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 8630 5200 50  0001 C CNN "Supplier 1"
+F 6 "581-06033C104KAT4A" H 9210 5470 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 8630 5200 50  0001 C CNN "Generic"
+F 8 "X7R" H 8630 5200 50  0001 C CNN "Dielectric"
+	1    8900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR071
+U 1 1 5FD380B0
+P 8700 5450
+F 0 "#PWR071" H 8700 5200 50  0001 C CNN
+F 1 "GND" H 8700 5300 50  0001 C CNN
+F 2 "" H 8700 5450 50  0001 C CNN
+F 3 "" H 8700 5450 50  0001 C CNN
+	1    8700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR073
+U 1 1 5FD380B6
+P 8900 5450
+F 0 "#PWR073" H 8900 5200 50  0001 C CNN
+F 1 "GND" H 8900 5300 50  0001 C CNN
+F 2 "" H 8900 5450 50  0001 C CNN
+F 3 "" H 8900 5450 50  0001 C CNN
+	1    8900 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR075
+U 1 1 5FD380BC
+P 9300 5450
+F 0 "#PWR075" H 9300 5200 50  0001 C CNN
+F 1 "GND" H 9300 5300 50  0001 C CNN
+F 2 "" H 9300 5450 50  0001 C CNN
+F 3 "" H 9300 5450 50  0001 C CNN
+	1    9300 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 5200 8700 5150
+Wire Wire Line
+	8700 5150 8900 5150
+Wire Wire Line
+	8900 5150 8900 5200
+Connection ~ 8900 5150
+Wire Wire Line
+	8900 5150 9000 5150
+Wire Wire Line
+	8700 5450 8700 5350
+Wire Wire Line
+	8900 5350 8900 5450
+Connection ~ 8700 5150
+$Comp
+L Matrioszka_Capacitors:100nF C18
+U 1 1 5FD380CF
+P 9700 5250
+F 0 "C18" H 9700 5600 50  0000 L CNN
+F 1 "100nF" H 9700 5500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 9708 4930 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/40/X7RDielectric-777024.pdf" H 9700 5250 50  0001 C CNN
+F 4 "06033C104KAT4A" H 10010 5470 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 9430 5200 50  0001 C CNN "Supplier 1"
+F 6 "581-06033C104KAT4A" H 10010 5470 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 9430 5200 50  0001 C CNN "Generic"
+F 8 "X7R" H 9430 5200 50  0001 C CNN "Dielectric"
+	1    9700 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Capacitors:10uF0805 C20
+U 1 1 5FD380DA
+P 9900 5250
+F 0 "C20" H 10000 5600 50  0000 L CNN
+F 1 "10uF" H 10000 5500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9908 4930 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/585/MLCC-1837944.pdf" H 9900 5250 50  0001 C CNN
+F 4 "CL21B106KAYQNNE" H 10210 5470 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 9630 5200 50  0001 C CNN "Supplier 1"
+F 6 "187-CL21B106KAYQNNE " H 10210 5470 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 9630 5200 50  0001 C CNN "Generic"
+F 8 "X7R" H 9630 5200 50  0001 C CNN "Dielectric"
+	1    9900 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 5150 9700 5150
+Wire Wire Line
+	9700 5150 9700 5200
+Wire Wire Line
+	9700 5150 9900 5150
+Wire Wire Line
+	9900 5150 9900 5200
+Connection ~ 9700 5150
+$Comp
+L Matrioszka:GND #PWR077
+U 1 1 5FD380E5
+P 9700 5450
+F 0 "#PWR077" H 9700 5200 50  0001 C CNN
+F 1 "GND" H 9700 5300 50  0001 C CNN
+F 2 "" H 9700 5450 50  0001 C CNN
+F 3 "" H 9700 5450 50  0001 C CNN
+	1    9700 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 5350 9700 5450
+$Comp
+L Matrioszka:GND #PWR079
+U 1 1 5FD380EC
+P 9900 5450
+F 0 "#PWR079" H 9900 5200 50  0001 C CNN
+F 1 "GND" H 9900 5300 50  0001 C CNN
+F 2 "" H 9900 5450 50  0001 C CNN
+F 3 "" H 9900 5450 50  0001 C CNN
+	1    9900 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 5350 9900 5450
+Connection ~ 9900 5150
+Text Notes 10500 5100 2    50   ~ 0
+1A max
+$Comp
+L Matrioszka:LED_GREEN_ANGLE D12
+U 1 1 5FD380FF
+P 10150 5600
+F 0 "D12" H 10100 5450 50  0000 C CNN
+F 1 "LED_GREEN_ANGLE" H 10150 5500 50  0001 C CNN
+F 2 "Matrioszka:WUERTH_155124" H 10150 5600 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/445/155124BS73200A-1714797.pdf" H 10150 5600 50  0001 C CNN
+F 4 "155124VS73200 " H 10150 5600 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 10150 5600 50  0001 C CNN "Supplier 1"
+F 6 "710-155124VS73200" H 10150 5600 50  0001 C CNN "Supplier 1 nr"
+F 7 "Green" H 10150 5350 50  0000 C CNN "Color"
+	1    10150 5600
+	0    -1   -1   0   
+$EndComp
+Text Notes 10550 5700 1    50   ~ 0
+2V
+$Comp
+L Matrioszka:GND #PWR081
+U 1 1 5FD38110
+P 10150 5750
+F 0 "#PWR081" H 10150 5500 50  0001 C CNN
+F 1 "GND" H 10150 5600 50  0001 C CNN
+F 2 "" H 10150 5750 50  0001 C CNN
+F 3 "" H 10150 5750 50  0001 C CNN
+	1    10150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:MCP1826S U3
+U 1 1 5FD3811B
+P 9300 5150
+F 0 "U3" H 9150 5400 50  0000 C CNN
+F 1 "MCP1826S" H 9100 5300 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9200 5300 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf" H 9300 5400 50  0001 C CNN
+F 4 "MCP1826S-3302E/DB" H 9300 5150 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 9300 5150 50  0001 C CNN "Supplier 1"
+F 6 "579-MCP1826S-3302EDB " H 9300 5150 50  0001 C CNN "Supplier 1 nr"
+	1    9300 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5FD38121
+P 10700 5150
+AR Path="/5FD38121" Ref="TP?"  Part="1" 
+AR Path="/5FCEE140/5FD38121" Ref="TP4"  Part="1" 
+F 0 "TP4" V 10700 5400 50  0000 C CNN
+F 1 "~" H 10700 5350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10900 5150 50  0001 C CNN
+F 3 "~" H 10900 5150 50  0001 C CNN
+	1    10700 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10600 5050 10600 5150
+Connection ~ 10600 5150
+Wire Wire Line
+	10600 5150 10700 5150
+Wire Wire Line
+	8450 5150 8700 5150
+$Comp
+L power:+3.3VA #PWR083
+U 1 1 5FD3B26A
+P 10600 5050
+F 0 "#PWR083" H 10600 4900 50  0001 C CNN
+F 1 "+3.3VA" H 10600 5190 50  0000 C CNN
+F 2 "" H 10600 5050 50  0001 C CNN
+F 3 "" H 10600 5050 50  0001 C CNN
+	1    10600 5050
+	1    0    0    -1  
+$EndComp
+Connection ~ 8450 5150
+Wire Wire Line
+	8450 4000 8700 4000
+$Comp
+L power:VCC #PWR054
+U 1 1 5FBEC4BA
+P 3200 3650
+F 0 "#PWR054" H 3200 3500 50  0001 C CNN
+F 1 "VCC" H 3200 3800 50  0000 C CNN
+F 2 "" H 3200 3650 50  0001 C CNN
+F 3 "" H 3200 3650 50  0001 C CNN
+	1    3200 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 3650
+$Comp
+L power:VCC #PWR052
+U 1 1 5FBEC8C1
+P 2400 3650
+F 0 "#PWR052" H 2400 3500 50  0001 C CNN
+F 1 "VCC" H 2400 3800 50  0000 C CNN
+F 2 "" H 2400 3650 50  0001 C CNN
+F 3 "" H 2400 3650 50  0001 C CNN
+	1    2400 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4250 5650 4400
+$Comp
+L Matrioszka:B360A-13-F D8
+U 1 1 5FBB413D
+P 6550 4000
+F 0 "D8" H 6650 3750 50  0000 C CNN
+F 1 "B360A-13-F" H 6500 3850 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 6550 3825 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/115/ds13005-1382411.pdf" H 6550 4000 50  0001 C CNN
+F 4 "B360A-13-F" H 6750 4250 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 6650 3750 50  0001 C CNN "Supplier 1"
+F 6 "621-B360A-F" H 6600 3700 50  0001 C CNN "Supplier 1 nr"
+	1    6550 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Matrioszka:B360A-13-F D9
+U 1 1 5FBBB954
+P 8050 3850
+F 0 "D9" H 8700 3900 50  0000 C CNN
+F 1 "B360A-13-F" H 8850 3800 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8050 3675 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/115/ds13005-1382411.pdf" H 8050 3850 50  0001 C CNN
+F 4 "B360A-13-F" H 8250 4100 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 8150 3600 50  0001 C CNN "Supplier 1"
+F 6 "621-B360A-F" H 8100 3550 50  0001 C CNN "Supplier 1 nr"
+	1    8050 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 3700 8050 3750
+Wire Wire Line
+	8050 3950 8050 4000
+$Comp
+L Matrioszka:B360A-13-F D10
+U 1 1 5FBC1771
+P 8250 3850
+F 0 "D10" H 8900 3900 50  0000 C CNN
+F 1 "B360A-13-F" H 9050 3800 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 8250 3675 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/115/ds13005-1382411.pdf" H 8250 3850 50  0001 C CNN
+F 4 "B360A-13-F" H 8450 4100 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 8350 3600 50  0001 C CNN "Supplier 1"
+F 6 "621-B360A-F" H 8300 3550 50  0001 C CNN "Supplier 1 nr"
+	1    8250 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8250 3700 8250 3750
+Wire Wire Line
+	8250 3950 8250 4000
+$Comp
+L Matrioszka:B360A-13-F D4
+U 1 1 5FBD275C
+P 1600 3650
+F 0 "D4" H 1850 3400 50  0000 C CNN
+F 1 "B360A-13-F" H 1650 3500 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 1600 3475 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/115/ds13005-1382411.pdf" H 1600 3650 50  0001 C CNN
+F 4 "B360A-13-F" H 1800 3900 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 1700 3400 50  0001 C CNN "Supplier 1"
+F 6 "621-B360A-F" H 1650 3350 50  0001 C CNN "Supplier 1 nr"
+	1    1600 3650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 3650 1850 3650
+$Comp
+L Matrioszka_Resistors:10k0603 F1
+U 1 1 5FA3F4B1
+P 1150 3650
+AR Path="/5FCEE140/5FA3F4B1" Ref="F1"  Part="1" 
+AR Path="/5FA3F4B1" Ref="F?"  Part="1" 
+F 0 "F1" V 1400 3800 50  0000 L CNN
+F 1 "FUSE 1A" V 1300 3550 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 530 3650 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/54/sf0603s-777859.pdf" H 1150 3650 50  0001 C CNN
+F 4 "SF-0603S100-2" H 1150 3650 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 1150 3650 50  0001 C CNN "Supplier 1"
+F 6 "652-SF-0603S100-2" H 1850 3950 50  0001 C CNN "Supplier 1 nr"
+F 7 "No" H 1150 3650 50  0001 C CNN "Generic"
+	1    1150 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1000 3650 950  3650
+Wire Wire Line
+	1300 3650 1500 3650
+Wire Wire Line
+	5200 4000 5300 4000
+Connection ~ 5300 4000
+Wire Wire Line
+	6250 4000 6450 4000
+Connection ~ 6250 4000
+Wire Wire Line
+	6650 4000 6800 4000
+Wire Wire Line
+	6800 4200 6800 4000
+Connection ~ 6800 4000
+Wire Wire Line
+	6800 4000 7000 4000
+Wire Wire Line
+	7000 4250 7000 4000
+Wire Wire Line
+	4850 4200 4850 4550
+Wire Wire Line
+	4850 4550 6800 4550
+Wire Wire Line
+	5800 3600 5800 4000
+Wire Wire Line
+	5200 3600 5800 3600
+Connection ~ 5800 4000
+Wire Wire Line
+	5800 4000 6000 4000
+Wire Wire Line
+	8450 4000 8450 5150
+$Comp
+L power:+5V #PWR067
+U 1 1 5F9D178B
+P 7000 3900
+F 0 "#PWR067" H 7000 3750 50  0001 C CNN
+F 1 "+5V" V 7000 4150 50  0000 C CNN
+F 2 "" H 7000 3900 50  0001 C CNN
+F 3 "" H 7000 3900 50  0001 C CNN
+	1    7000 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3900 7000 4000
+Connection ~ 7000 4000
+Wire Wire Line
+	9900 4000 10150 4000
+Wire Wire Line
+	9900 5150 10150 5150
+$Comp
+L Matrioszka_Resistors:10k0603 R25
+U 1 1 5FE37C22
+P 10150 4150
+AR Path="/5FCEE140/5FE37C22" Ref="R25"  Part="1" 
+AR Path="/5FE37C22" Ref="R?"  Part="1" 
+F 0 "R25" V 10300 4100 50  0000 C CNN
+F 1 "1k" V 10400 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9530 4150 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/315/Panasonic_Resistors_Thick_Film_Anti_Sulf_Anti_Surg-1825099.pdf" H 10150 4150 50  0001 C CNN
+F 4 "CRCW06031K00FKEAC" H 10150 4150 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 10150 4150 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06031K00FKEAC" H 10850 4450 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 10150 4150 50  0001 C CNN "Generic"
+	1    10150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka_Resistors:10k0603 R26
+U 1 1 5FE3A67C
+P 10150 5300
+AR Path="/5FCEE140/5FE3A67C" Ref="R26"  Part="1" 
+AR Path="/5FE3A67C" Ref="R?"  Part="1" 
+F 0 "R26" V 10300 5250 50  0000 C CNN
+F 1 "1k" V 10400 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 9530 5300 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/315/Panasonic_Resistors_Thick_Film_Anti_Sulf_Anti_Surg-1825099.pdf" H 10150 5300 50  0001 C CNN
+F 4 "CRCW06031K00FKEAC" H 10150 5300 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 10150 5300 50  0001 C CNN "Supplier 1"
+F 6 "71-CRCW06031K00FKEAC" H 10850 5600 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 10150 5300 50  0001 C CNN "Generic"
+	1    10150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:LED_RED_ANGLE D7
+U 1 1 5F99C347
+P 7650 4800
+F 0 "D7" H 7650 4650 50  0000 C CNN
+F 1 "LED_RED_ANGLE" H 7300 5050 50  0001 C CNN
+F 2 "Matrioszka:WUERTH_155124" H 7650 4800 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/445/155124BS73200A-1714797.pdf" H 7650 4800 50  0001 C CNN
+F 4 "155124RS73200" H 7650 4800 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 7650 4800 50  0001 C CNN "Supplier 1"
+F 6 "710-155124RS73200 " H 7650 4800 50  0001 C CNN "Supplier 1 nr"
+F 7 "Red" H 7600 4550 50  0000 L CNN "Color"
+	1    7650 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Matrioszka_Resistors:10k0603 R24
+U 1 1 5F9BC292
+P 7650 4500
+F 0 "R24" V 7800 4450 50  0000 C CNN
+F 1 "2k" V 7900 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7030 4500 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/315/Panasonic_Resistors_Thick_Film_Anti_Sulf_Anti_Surg-1825099.pdf" H 7650 4500 50  0001 C CNN
+F 4 "ERJ-UP3J202V" H 7650 4500 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 7650 4500 50  0001 C CNN "Supplier 1"
+F 6 "667-ERJ-UP3J202V " H 8350 4800 50  0001 C CNN "Supplier 1 nr"
+F 7 "Yes" H 7650 4500 50  0001 C CNN "Generic"
+	1    7650 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Matrioszka:GND #PWR066
+U 1 1 5F9C1A12
+P 7650 4950
+F 0 "#PWR066" H 7650 4700 50  0001 C CNN
+F 1 "GND" H 7650 4800 50  0001 C CNN
+F 2 "" H 7650 4950 50  0001 C CNN
+F 3 "" H 7650 4950 50  0001 C CNN
+	1    7650 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0150
+U 1 1 6092A9D8
+P 7650 3900
+F 0 "#PWR0150" H 7650 3750 50  0001 C CNN
+F 1 "+5V" V 7650 4150 50  0000 C CNN
+F 2 "" H 7650 3900 50  0001 C CNN
+F 3 "" H 7650 3900 50  0001 C CNN
+	1    7650 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 3900 7650 4000
+Wire Wire Line
+	7650 4350 7650 4000
+Connection ~ 7650 4000
+Wire Wire Line
+	7850 4000 7850 3950
+$Comp
+L Matrioszka:B360A-13-F D14
+U 1 1 5FF27CD8
+P 7850 3850
+AR Path="/5FCEE140/5FF27CD8" Ref="D14"  Part="1" 
+AR Path="/5F91A24D/5FF27CD8" Ref="D?"  Part="1" 
+F 0 "D14" H 8500 3900 50  0000 C CNN
+F 1 "B360A-13-F" H 8650 3800 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 7850 3675 50  0001 C CNN
+F 3 "https://pl.mouser.com/datasheet/2/115/ds13005-1382411.pdf" H 7850 3850 50  0001 C CNN
+F 4 "B360A-13-F" H 8050 4100 50  0001 C CNN "Manufacturer nr"
+F 5 "Mouser" H 7950 3600 50  0001 C CNN "Supplier 1"
+F 6 "621-B360A-F" H 7900 3550 50  0001 C CNN "Supplier 1 nr"
+	1    7850 3850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7650 4000 7850 4000
+Wire Wire Line
+	7850 3700 7850 3750
+$Comp
+L power:+5VP #PWR061
+U 1 1 5FF30E74
+P 7850 3700
+F 0 "#PWR061" H 7850 3550 50  0001 C CNN
+F 1 "+5VP" V 7850 3950 50  0000 C CNN
+F 2 "" H 7850 3700 50  0001 C CNN
+F 3 "" H 7850 3700 50  0001 C CNN
+	1    7850 3700
+	1    0    0    -1  
+$EndComp
+Text Notes 7900 4300 1    50   ~ 0
+SWD\n
+Text Notes 8750 3450 0    50   ~ 0
+WHEN POWERED FROM 3.3V UART/SWD:\nLDO In "Dropout-mode"\n(LDOVout  =  ca. LDOVin = ca. 3V) \nMIND ADC REF VOLTAGE!
+Connection ~ 10150 4000
+Wire Wire Line
+	10150 4000 10600 4000
+Connection ~ 10150 5150
+Wire Wire Line
+	10150 5150 10600 5150
+Text Notes 1900 3500 0    50   ~ 0
+6V-24V\n
+Text Notes 1900 3600 0    50   ~ 0
+1A max
+Text Notes 3550 3600 0    50   ~ 0
+6V-24V\n
+Connection ~ 7850 4000
+Connection ~ 8050 4000
+Wire Wire Line
+	8050 4000 8250 4000
+Wire Wire Line
+	7850 4000 8050 4000
+Wire Wire Line
+	8250 4000 8450 4000
+Connection ~ 8250 4000
+Connection ~ 8450 4000
+$EndSCHEMATC

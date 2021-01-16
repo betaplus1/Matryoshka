@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name Matrioszka_Resistors)(type Legacy)(uri ${KIPRJMOD}/betaplus1-kicad-libs/libs/Matrioszka_Resistors.lib)(options "")(descr ""))
+  (lib (name Matrioszka_Inductors)(type Legacy)(uri ${KIPRJMOD}/betaplus1-kicad-libs/libs/Matrioszka_Inductors.lib)(options "")(descr ""))
+  (lib (name Matrioszka_Capacitors)(type Legacy)(uri ${KIPRJMOD}/betaplus1-kicad-libs/libs/Matrioszka_Capacitors.lib)(options "")(descr ""))
+  (lib (name Matrioszka)(type Legacy)(uri ${KIPRJMOD}/betaplus1-kicad-libs/libs/Matrioszka.lib)(options "")(descr ""))
+  (lib (name Matrioszka-connectors)(type Legacy)(uri ${KIPRJMOD}/betaplus1-kicad-libs/libs/Matrioszka-connectors.lib)(options "")(descr ""))
+)
